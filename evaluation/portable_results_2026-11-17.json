@@ -1,0 +1,636 @@
+{
+  "server_version": "0.4.1",
+  "python": "3.11.14",
+  "platform": "Windows",
+  "architecture": "AMD64",
+  "discovery_seconds": 3.0842,
+  "all_passed": true,
+  "results": [
+    {
+      "case_id": "catalog",
+      "tool": "search_publications",
+      "arguments": {
+        "search": "pavement deflection",
+        "limit": 3
+      },
+      "seconds": 67.1508,
+      "passed": true,
+      "payload": {
+        "items": [
+          {
+            "doc_id": "FHWA_HRT_21_038",
+            "title": "Long-Term Pavement Performance Information Management System User Guide",
+            "report_no": "FHWA-HRT-21-038",
+            "year": 2021,
+            "topic": "Pavement Management",
+            "primary_topic": "Pavement Management",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/21038/21038.pdf",
+            "trust_badge": "High",
+            "abstract": "",
+            "page_count": 224,
+            "match_status": "metadata_match",
+            "match_reason": "Requested terms matched the publication title or metadata"
+          },
+          {
+            "doc_id": "FHWA_DTFH_61_14_H00019",
+            "title": "Development of the Rolling Wheel Deflectometer (RWD)",
+            "report_no": "FHWA-DTFH-61-14-H00019",
+            "year": 2020,
+            "topic": "Pavement Management",
+            "primary_topic": "Pavement Management",
+            "pdf_url": "https://www.fhwa.dot.gov/pavement/management/pubs/dtfh6114_h00019.pdf",
+            "trust_badge": "Medium",
+            "abstract": "",
+            "page_count": 89,
+            "match_status": "metadata_match",
+            "match_reason": "Requested terms matched the publication title or metadata"
+          },
+          {
+            "doc_id": "FHWA_HRT_16_011",
+            "title": "Using Falling Weight Deflectometer Data with Mechanistic-Empirical Design and Analysis, Volume III: Guidelines for Deflection Testing, Analysis, and Interpretation",
+            "report_no": "FHWA-HRT-16-011",
+            "year": 2017,
+            "topic": "Pavement Data Collection",
+            "primary_topic": "Pavement Data Collection",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/16011/16011.pdf",
+            "trust_badge": "High",
+            "abstract": "",
+            "page_count": 126,
+            "match_status": "metadata_match",
+            "match_reason": "Requested terms matched the publication title or metadata"
+          }
+        ],
+        "count": 7,
+        "topics": [
+          "Construction Technology",
+          "Environmental Stewardship",
+          "Flexible Pavement",
+          "Materials-Asphalt",
+          "Materials-Concrete",
+          "Materials-General",
+          "Materials-Unbound and Soils",
+          "Pavement Base and Subbase",
+          "Pavement Construction",
+          "Pavement Data Collection",
+          "Pavement Design",
+          "Pavement Drainage",
+          "Pavement Evaluation",
+          "Pavement Issues",
+          "Pavement Maintenance",
+          "Pavement Management",
+          "Pavement Recycling",
+          "Pavement Rehabilitation",
+          "Pavement System Preservation",
+          "Pavement Testing",
+          "Quality Assurance",
+          "Resource Center and Division Items",
+          "Rigid Pavement",
+          "Surface and Other Considerations",
+          "Traffic"
+        ],
+        "years": [
+          2088,
+          2025,
+          2024,
+          2023,
+          2022,
+          2021,
+          2020,
+          2019,
+          2018,
+          2017,
+          2016,
+          2015,
+          2014,
+          2013,
+          2012,
+          2011,
+          2010,
+          2009,
+          2008,
+          2007,
+          2006,
+          2005,
+          2004,
+          2003,
+          2002,
+          2001,
+          2000,
+          1999,
+          1998,
+          1997,
+          1996,
+          1995,
+          1994,
+          1993,
+          1992,
+          1991,
+          1990,
+          1989,
+          1988,
+          1987,
+          1986,
+          1984,
+          1980,
+          1979,
+          1975,
+          1960,
+          1951,
+          1930,
+          1910
+        ]
+      }
+    },
+    {
+      "case_id": "metadata",
+      "tool": "get_publication",
+      "arguments": {
+        "doc_id": "FHWA_HRT_15_074"
+      },
+      "seconds": 0.0263,
+      "passed": true,
+      "payload": {
+        "doc_id": "FHWA_HRT_15_074",
+        "title": "Pavement Structural Evaluation at the Network Level: Final Report",
+        "report_no": "FHWA-HRT-15-074",
+        "year": 2016,
+        "topic": "Pavement Evaluation",
+        "primary_topic": "Pavement Evaluation",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+        "trust_badge": "Medium",
+        "abstract": "",
+        "page_count": 286
+      }
+    },
+    {
+      "case_id": "comparison",
+      "tool": "retrieve_evidence",
+      "arguments": {
+        "query": "How do FWD and traffic speed deflectometer measurements differ?"
+      },
+      "seconds": 0.6126,
+      "passed": true,
+      "payload": {
+        "mode": "query",
+        "scope": "corpus",
+        "query": "How do FWD and traffic speed deflectometer measurements differ?",
+        "doc_id": null,
+        "corpus_version": "v1",
+        "passages": [
+          {
+            "rank": 1,
+            "chunk_id": "FHWA_HRT_15_074__p0021-p0025__c005",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "CHAPTER 1. INTRODUCTION",
+            "page_start": 21,
+            "page_end": 25,
+            "text": "rn versions of these moving deflection testing devices that are actively used today include the following: \u2022 Traffic Speed Deflectometer (TSD). \u2022 Rolling Wheel Deflectometer (RWD).\n\nMuch work has been done over the past decade toward advancing the state of the technology of moving pavement deflection testing. However, one main question is whether the TSD and/or RWD are ready for immediate implementation in the structural evaluation of pavements for network-level PMS applications. If so, how should the measurements from one or more of these devices be used within the context of network-level PMS? These questions are at the heart of the project presented in this report, whose stated objectives were to perform the following: 1. Assess, evaluate, and validate the capability of traffic speed deflection devices (TSDDs) (including both RWDs and TSDs) that measure deflection or other pavement responses for pavement structural evaluation at the network level for use in pavement management application and decisionmaking. 2. Develop analysis methodologies for enabling the use of the device(s) capable of meeting the first objective or alternatively develop recommendations to further advance promising device(s) and/or technologies if the devices do not meet the first objective.",
+            "text_truncated": false
+          },
+          {
+            "rank": 2,
+            "chunk_id": "FHWA_HRT_13_050__p0030-p0032__c048",
+            "doc_id": "FHWA_HRT_13_050",
+            "doc_title": "Pavement Remaining Service Interval Implementation Guidelines",
+            "report_no": "FHWA-HRT-13-050",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/13050/13050.pdf",
+            "section_header": "Pavement Structural Response",
+            "page_start": 30,
+            "page_end": 32,
+            "text": "sin. The traffic speed deflectometer (TSD) is another type of moving deflection device that has sensors that measure the shape of the deflection basin (see figure 9 and figure 10).\n\nTo ensure accuracy of data interpretation using pavement deflection response devices, it is important to know the pavement thickness and types of near-surface material layers. Manual measurement techniques of pavement thickness are being replaced by automated ground penetration radar (GPR) technology. Pavement deflection measurements are mostly performed at the project level to develop design specifications for the most appropriate construction treatment. However, justification for network-level pavement deflection measurements can be based on the additional refinement in the decisionmaking process resulting from the ability provided by these data to determine the cost of future construction activities.\n\nFigure 8. Photo. FWD used for structural evaluation.\n\nFigure 9. Photo. TSD used for structural evaluation.\n\nFigure 10. Photo. TSD internal pavement response measurement instrumentation. Traffic Loads For pavement management purposes, the preferred practice is to use weigh-in-motion (WIM) scales at non-enforcement locations to measure actual pavement loads as opposed to legally enforced loads. In order to accurately predict future pavement performance, engineers need to",
+            "text_truncated": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "FHWA_HRT_15_074__p0021-p0025__c004",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "CHAPTER 1. INTRODUCTION",
+            "page_start": 21,
+            "page_end": 25,
+            "text": "e used to measure the deflection basin resulting from an applied load. The most commonly used device in the United States since the 1980s is the falling weight deflectometer (FWD).\n\nFWDs rely on impact loads to produce a pavement response similar to that produced by actual traffic loadings, which is then measured by deflection sensors located at varying distances from the load. While FWDs represent the state-of-the-practice, they are not without shortcomings. Since FWDs are a stop-and-go operation, lane closures are required, which cause traffic disruptions and, in turn, create a safety hazard to personnel involved in the operation as well as the traveling public. Their frequency of testing is also significantly less than a continuous operation, which affects operational costs. These shortcomings are especially important in terms of network-level pavement management applications, which by their nature require information on a large pavement network measuring in the thousands of miles. To overcome these shortcomings, several organizations in the United States and Europe have developed devices over the past several decades that can continuously measure pavement deflections at posted traffic speeds (up to 50\u201360 mi/h (80.5\u201396.6 km/h)). The modern versions of these moving deflection testing devices that are actively used today include the following: \u2022 Traffic Speed Deflectometer (TSD). \u2022 Rolling Wheel Deflectometer (RWD).",
+            "text_truncated": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "FHWA_HRT_13_050__p0030-p0032__c047",
+            "doc_id": "FHWA_HRT_13_050",
+            "doc_title": "Pavement Remaining Service Interval Implementation Guidelines",
+            "report_no": "FHWA-HRT-13-050",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/13050/13050.pdf",
+            "section_header": "Pavement Structural Response",
+            "page_start": 30,
+            "page_end": 32,
+            "text": "ing technology, which assigns a depth to image pixels, provides a more robust dataset that can be used for pavement cracking, rutting, and possibly pavement roughness measurements.\n\nPavement Structural Response Deflection measurements are used to measure the response of a pavement structure to a known applied load. Interpretation of the resulting deflection data ranges from the identification of weak spots to advanced non-linear characterization of the engineering properties of pavement material layers. Deflection measurement devices (e.g., falling weight deflectometers (FWDs) as shown in figure 8) currently used in practice must stop at each measurement location, which requires traffic control. To overcome traffic control requirements, agencies are in various stages of developing and implementing modern moving deflection measurement devices. The rolling wheel deflectometer can travel at highway speeds and does not require traffic control. While the maximum deflection measured by this device is useful in locating weak locations for follow-up studies, it does not provide additional analytical capabilities offered by devices that measure the shape of the deflection basin. The traffic speed deflectometer (TSD) is another type of moving deflection device that has sensors that measure the shape of the deflection basin (see figure 9 and figure 10).",
+            "text_truncated": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "FHWA_RD_97_001__p0017-p0037__c040",
+            "doc_id": "FHWA_RD_97_001",
+            "doc_title": "Long-Term Pavement Performance Information Management System: Data Users Reference Manual",
+            "report_no": "FHWA-RD-97-001",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97001/97001.pdf",
+            "section_header": "BACKGROUND",
+            "page_start": 17,
+            "page_end": 37,
+            "text": "natively, a dipstick is used to obtain manual cross-profile measurements with a transverse interval of 0.305 m. A second alternative is to use a straight edge to measure rut depth.\n\nData Collection Frequency The cross-profile data are collected every 1 to 2 years. Module Characteristics There are four tables with cross-profile data. Table names for cross-profile data begin with MON_Rut_. The MON_Rut_Depths table contains the summary statistics for straight-edge measurements on asphalt surfaces. Measurements using the PASCO device or a dipstick do not have rut values calculated. All MON_Rut_* tables should be requested if rutting information is desired since the method of measurement for a section may vary from survey to survey. Falling-Weight Deflectometer Description A Falling-Weight Deflectometer (FWD) measures the structural strength of the pavement. Tables for deflection data contain peak load and deflection measurements, and site-specific air and pavement temperature data collected with the deflection testing. Load and deflection time history data for selected drops at each test point are maintained in off-line storage. Source of Data Each LTPP regional office is responsible for collecting FWD data in their region. Most of the data are collected and transmitted electronically. Temperature data are submitted using paper forms.",
+            "text_truncated": false
+          },
+          {
+            "rank": 6,
+            "chunk_id": "FHWA_DTFH_61_14_H00019__p0014-p0014__c009",
+            "doc_id": "FHWA_DTFH_61_14_H00019",
+            "doc_title": "Development of the Rolling Wheel Deflectometer (RWD)",
+            "report_no": "FHWA-DTFH-61-14-H00019",
+            "pdf_url": "https://www.fhwa.dot.gov/pavement/management/pubs/dtfh6114_h00019.pdf",
+            "section_header": "BACKGROUND",
+            "page_start": 14,
+            "page_end": 14,
+            "text": "CHAPTER 1. INTRODUCTION BACKGROUND The U.S. Federal Highway Administration (FHWA) has funded the design, development, and demonstration of a prototype Rolling Wheel Deflectometer (RWD) for high-speed measurement of pavement structural response since the late 1990s. In 2002, a proof of concept study showed the device could successfully measure pavement deflections at highway speeds. From 2003 through 2013, the RWD was continuously developed and demonstrated to multiple Federal, State, and local transportation agencies through a cooperative research and development agreement (CRADA) with the FHWA Turner-Fairbank Highway Research Center (TFHRC). Since that time, the original laser-based measurement system has been replaced with a camera and light combination known as RWD-Vision, shown in figure 1. The upgraded methodology allows for measurement of the full deflection basin, as opposed to limited deflection points. The RWD technology has potential for highway agencies to better assess their pavement structural conditions, enhance pavement management decision making, increase the effectiveness of maintenance and construction activities. However, the relationship between RWD deflections and falling weight deflectometers (FWDs)\u2014which constitute the current state-of-the-practice, and for which current analysis tools and techniques are developed\u2014should be better understood. Figure 1. Photo. The RWD measures pavement structural response at highway speeds.",
+            "text_truncated": false
+          },
+          {
+            "rank": 7,
+            "chunk_id": "FHWA_HRT_11_070__p0320-p0322__c628",
+            "doc_id": "FHWA_HRT_11_070",
+            "doc_title": "Long-Term Plan for Concrete Pavement Research and Technology - The Concrete Pavement Road Map (Second Generation): Volume II, Tracks",
+            "report_no": "FHWA-HRT-11-070",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/pccp/11070/11070.pdf",
+            "section_header": "Subtrack 9-2. Strategies for Long-Life Concrete Pavements",
+            "page_start": 320,
+            "page_end": 322,
+            "text": "1. Conduct a full literature search of current deflection equipment sorted by speed of operation. 2. Evaluate the potential for the FHWA rolling deflectometer device to produce data for concrete pavements. 3. Determine other suitable deflection techniques rated by operating speed. 4. Determine the best deflection technique for further development and evaluation. 5. Determine ways to produce repeatable results from this deflection equipment, connect them back to FWD measurements, and develop procedures that could be used to determine remaining pavement life. 6. Develop a long-term implementation strategy for promising deflection prototype devices. Benefits: Assessment of pavement condition using a rolling wheel deflectometer at operating speed. Products: A rolling wheel deflectometer that can be operated at various speeds and addresses specific concrete pavement technology issues. Implementation: This work will result in a long-term implementation strategy for promising deflection prototype devices. While this technology should operate at typical highway speeds, devices that operate at lower speeds will be evaluated due to the unique concrete pavement response issues. SUBTRACK 9-2.",
+            "text_truncated": false
+          },
+          {
+            "rank": 8,
+            "chunk_id": "FHWA_HRT_17_059__p0024-p0028__c027",
+            "doc_id": "FHWA_HRT_17_059",
+            "doc_title": "Characterizing Existing Asphalt Concrete Layer Damage for Mechanistic Pavement Rehabilitation Design",
+            "report_no": "FHWA-HRT-17-059",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/17059/17059.pdf",
+            "section_header": "Deflection-Based Methods - NDT Approach",
+            "page_start": 24,
+            "page_end": 28,
+            "text": "Curvature indices computed from two surface deflections of high-speed deflection data were found to be good measures to capture variation in structural capacity on a network level.\n\nThe study showed that tensile strains estimated from deflections from high-speed continuous deflection equipment were effective indicators of structural capacity, and this was validated using advanced modeling and FWD testing.(19) Similarly, VDOT compared the deflection results obtained from the RWD and FWD on three routes to compare pavement deterioration in the form of cracking to changes in pavement response.(20) Results of this study indicated that the range of FWD and RWD deflection values were similar. The RWD and FWD deflection values, however, did not correlate well. A confounding factor within the study was the potential influence from seasonal variability of RWD and FWD deflection readings. Mostafa et al. conducted a similar study in Louisiana on 16 sites with various pavement types to assess the repeatability and characteristics of RWD measurements, the effect of truck speeds, and the relationship between RWD and FWD deflection measurements and pavement conditions.(21) Results indicated that RWD deflection results were repeatable and in general agreement with FWD deflection measurements. The mean center deflections from the RWD and FWD, however, were statistically different for 15 of the 16 sites.",
+            "text_truncated": false
+          }
+        ],
+        "candidate_count": 32,
+        "duplicates_removed": 0,
+        "candidate_scan_truncated": false,
+        "truncated": true,
+        "coverage": {
+          "section_roles_present": [
+            "purpose",
+            "other",
+            "methods"
+          ],
+          "section_roles_not_observed": [
+            "findings",
+            "conclusions",
+            "limitations",
+            "recommendations"
+          ],
+          "basis": "Heuristic labels from retrieved section headings; not verification of content coverage.",
+          "complete_report": false
+        },
+        "warnings": [
+          "Selected passages only; not a complete report or exhaustive corpus search. A retrieved match does not by itself establish support for a claim."
+        ]
+      }
+    },
+    {
+      "case_id": "scoped",
+      "tool": "retrieve_evidence",
+      "arguments": {
+        "query": "backcalculation methods and limitations",
+        "doc_id": "FHWA_RD_97_076"
+      },
+      "seconds": 0.884,
+      "passed": true,
+      "payload": {
+        "mode": "query",
+        "scope": "publication",
+        "query": "backcalculation methods and limitations",
+        "doc_id": "FHWA_RD_97_076",
+        "corpus_version": "v1",
+        "passages": [
+          {
+            "rank": 1,
+            "chunk_id": "FHWA_RD_97_076__p0002-p0031__c010",
+            "doc_id": "FHWA_RD_97_076",
+            "doc_title": "Design Pamphlet for the Backcalculation of Pavement Layer Moduli in Support of the 1993 AASHTO Guide for the Design of Pavement Structures",
+            "report_no": "2.0",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97076/97076.pdf",
+            "section_header": "Pamphlet for the Determination",
+            "page_start": 2,
+            "page_end": 31,
+            "text": "om the backcalculation process represent equivalent elastic moduli and should be reviewed carefully for reasonableness. These layered elastic moduli should not be used arbitrarily.\n\n2. The procedure covered in this design pamphlet is an iterative process to decrease the error term (difference between the measured and calculated deflection basins) to the lowest value possible, and certainly below the magnitude considered acceptable. The combination of layers and calculated elastic moduli resulting in the lowest error should be used for diagnostic and rehabilitation design studies. One of the more common analysis methods of deflection data is to backcalculate material response parameters for each layer within the pavement structure from deflection basin measurements. These methods and programs can be grouped into four basic categories. These categories are: 1. Static (Load Application) - Linear (Material Characterization) Methods 2. Static (Load Application) - Non Linear (Material Characterization) Methods 3. Dynamic (Load Application) - Linear (Material Characterization) Methods 4. Dynamic (Load Application) - Non Linear (Material Characterization) Methods At present, interpretation of deflection basin test results is performed with static-linear analyses.",
+            "text_truncated": false
+          },
+          {
+            "rank": 2,
+            "chunk_id": "FHWA_RD_97_076__p0002-p0031__c032",
+            "doc_id": "FHWA_RD_97_076",
+            "doc_title": "Design Pamphlet for the Backcalculation of Pavement Layer Moduli in Support of the 1993 AASHTO Guide for the Design of Pavement Structures",
+            "report_no": "2.0",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97076/97076.pdf",
+            "section_header": "Pamphlet for the Determination",
+            "page_start": 2,
+            "page_end": 31,
+            "text": "ect the backcalculated layer moduli, as previously stated. The success of low error terms in backcalculating layer moduli is dependent on the variability of the pavement structure.\n\nIf extensive thickness or material variation is found from the pavement cores, then the error terms will likely increase, unless the pavement structure is also varied in the backcalculation process for each deflection basin. Obviously, it is impossible to take a core at each deflection basin, so average thicknesses are usually used in the backcalculation process.",
+            "text_truncated": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "FHWA_RD_97_076__p0002-p0031__c014",
+            "doc_id": "FHWA_RD_97_076",
+            "doc_title": "Design Pamphlet for the Backcalculation of Pavement Layer Moduli in Support of the 1993 AASHTO Guide for the Design of Pavement Structures",
+            "report_no": "2.0",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97076/97076.pdf",
+            "section_header": "Pamphlet for the Determination",
+            "page_start": 2,
+            "page_end": 31,
+            "text": "es from the subgrade to the surface. In fact, surface layer moduli that are calculated from measured deflection basins are normally considered poorly defined from deflection tests.\n\nThis result has spawned the development of dynamic analysis tools and the use of other nondestructive deflection testing (NOT) techniques (such as wave propagation) for improving the accuracy of these predictions or calculations, as compared to moduli measurements made in the laboratory. Two dynamic-linear backcalculation programs that have been developed are UTFWIBM and SCALPOT, but both have had very limited use.(12,13)Thus, for this design pamphlet, MODULUS 4.0 and 4.2 and WESDEF (all based on the elastic layer theory) are suggested for backcalculating the equivalent elastic modulus of each pavement structural layer, including the subgrade, from deflection basin measurements.(14,IS, 16) Backcalculation is a laborious process, requiring a high degree of skill, and the results are known to be moderately to highly dependent on the individual doing the backcalculation. There are several factors that affect the accuracy and applicability of backcalcualted layer moduli. Any analysis method that uses an iterative or searching procedure to match measured to calculated deflection basins will result in some error.",
+            "text_truncated": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "FHWA_RD_97_076__p0002-p0031__c011",
+            "doc_id": "FHWA_RD_97_076",
+            "doc_title": "Design Pamphlet for the Backcalculation of Pavement Layer Moduli in Support of the 1993 AASHTO Guide for the Design of Pavement Structures",
+            "report_no": "2.0",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97076/97076.pdf",
+            "section_header": "Pamphlet for the Determination",
+            "page_start": 2,
+            "page_end": 31,
+            "text": "4. Dynamic (Load Application) - Non Linear (Material Characterization) Methods At present, interpretation of deflection basin test results is performed with static-linear analyses.\n\nSome of the software that has been used to backcalculate layer moduli over the past several years include BISDEF, CHEVDEF, ELMOD, ELSDEF, EVERCALC, ISSEM4, MODCOMP, MODULUS, and WESDEF. Although many of the software packages have similarities, the results generated from the same set of data by various programs can be different. These differences are a result of the type of iteration scheme used and the modulus calculation routine employed. (6) Moduli can be determined by either backcalculation or forward calculation schemes. (7, 8) As such, standardization of analysis procedures is a key topic within the industry. ASTM has a procedure (D5858) for analyzing deflection basin test results to determine layered elastic moduli. (4) Most of the backcalculation procedures in use today are based on elastic layer theory to calculate Young's Modulus (modulus of elasticity) for each structural layer within the pavement, such that the difference between the measured and predicted basins is minimal. SHRP, as well as others, studied and evaluated many of these backcalculation procedures to select one method for characterizing the subgrade and other pavement layers and evaluating the performance of flexible and rigid pavements.",
+            "text_truncated": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "FHWA_RD_97_076__p0002-p0031__c017",
+            "doc_id": "FHWA_RD_97_076",
+            "doc_title": "Design Pamphlet for the Backcalculation of Pavement Layer Moduli in Support of the 1993 AASHTO Guide for the Design of Pavement Structures",
+            "report_no": "2.0",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97076/97076.pdf",
+            "section_header": "Pamphlet for the Determination",
+            "page_start": 2,
+            "page_end": 31,
+            "text": "ed in the Long Term. Pavement Performance (LTPP) data base -- deflection, pavement structure and materials, and surface layer temperature data -- to generate the input for MODULUS.\n\nIn addition, the procedure was automated to reduce opportunities for operator error or inconsistency. The SHRP backcalculation rules address three major areas: definition of layer moduli ranges, modeling of the pavement structure, and evaluation of the analysis results. The first group of rules focuses on the definition of the moduli ranges required to run the MODULUS program, the second set of rules addresses the modeling of the pavement structure for purposes of backcalculation, and the third and final set of rules focuses on the evaluation of the backcalculation results. A similar guide was also written within ASlM to standardize this highly variable process. (4) ASTM 05858 and the SHRP procedure were used to develop a guide for backcalculating layer moduli for design and diagnostic studies. The following briefly summarizes the steps involved in the backcalculation process: (1) Normalize and review the measured deflection basins to ensure that the deflections decrease consistently with those sensors farther from the applied load. Identify unique deflection basins that are inconsistent with the elastic layer theory.",
+            "text_truncated": false
+          },
+          {
+            "rank": 6,
+            "chunk_id": "FHWA_RD_97_076__p0002-p0031__c018",
+            "doc_id": "FHWA_RD_97_076",
+            "doc_title": "Design Pamphlet for the Backcalculation of Pavement Layer Moduli in Support of the 1993 AASHTO Guide for the Design of Pavement Structures",
+            "report_no": "2.0",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97076/97076.pdf",
+            "section_header": "Pamphlet for the Determination",
+            "page_start": 2,
+            "page_end": 31,
+            "text": "that the deflections decrease consistently with those sensors farther from the applied load. Identify unique deflection basins that are inconsistent with the elastic layer theory.\n\n(2) Review the materials and soils recovered from the pavement cores and borings. Separate significantly different pavement materials and subgrade soils or subsurface conditions into different layers (i.e., above and below the water table) and identify the depth to a stiff or rigid layer. (3) Identify potential problem layers included in the structure. For example, weak soils above stiffer soils, sandwich sections (a soft layer or material between two strong materials), and thin and thick layers relative to the adjacent layers. (4) Determine the pavement cross-section to be used in the backcalculation process. (5) Backcalculate the modulus of each layer and calculate the error term for each measured basin or the sum of the total percentage difference between the measured and calculated basins. (6) For large errors, review the pavement structure used in the backcalculation process with the cores and borings. Recombine or separate layers, if necessary, to decrease the error term. (7) Review the moduli ratios between adjacent unbound layers to identify unrealistic or improbable conditions (i.e., high moduli ratios causing large tensile stresses at the bottom of unbound layers).",
+            "text_truncated": false
+          },
+          {
+            "rank": 7,
+            "chunk_id": "FHWA_RD_97_076__p0002-p0031__c012",
+            "doc_id": "FHWA_RD_97_076",
+            "doc_title": "Design Pamphlet for the Backcalculation of Pavement Layer Moduli in Support of the 1993 AASHTO Guide for the Design of Pavement Structures",
+            "report_no": "2.0",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97076/97076.pdf",
+            "section_header": "Pamphlet for the Determination",
+            "page_start": 2,
+            "page_end": 31,
+            "text": "y of these backcalculation procedures to select one method for characterizing the subgrade and other pavement layers and evaluating the performance of flexible and rigid pavements.\n\nThe MODULUS 4.0 program was selected for flexible and composite pavements; whereas, a new procedure was developed for rigid pavements, as part of the SHRP P- 020 Data Analysis Project. (9, 10)",
+            "text_truncated": false
+          },
+          {
+            "rank": 8,
+            "chunk_id": "FHWA_RD_97_076__p0002-p0031__c051",
+            "doc_id": "FHWA_RD_97_076",
+            "doc_title": "Design Pamphlet for the Backcalculation of Pavement Layer Moduli in Support of the 1993 AASHTO Guide for the Design of Pavement Structures",
+            "report_no": "2.0",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/97076/97076.pdf",
+            "section_header": "Pamphlet for the Determination",
+            "page_start": 2,
+            "page_end": 31,
+            "text": "easured deflection basin and resulting backcalculated layer moduli, as well as the calculated deflection basin. \u2022 The error term for each deflection basin included in the analysis.\n\n1. AASHTO Guidefor Design of Pavement Structures, American Association of State Highway and TransportationOfficials, Washington, DC, 1993. 2. Nondestructive Testing of Pavements and Backcalculation of Moduli, STP 1026, American Society for Testing and Materials (Editors: Albert J. Bush, III and Gilbert Y. Baladi), November 1989. 3. Nondestructive Testing of Pavements and Backcalculation of Moduli, Second Volume, STP 1198, American Society for Testing and Materials (Editors: Harold L. Von Quintus, Albert J. Bush, III and Gilbert Y. Baladai), December 1994. 4. May, RW. and H.L. Von Quintus, The Questfor a Standard Guide to NDT Backcalculation, SIP 1198. American Society for Testing and Materials, December 1994. 5. PCS/Law Engineering, SHRP's Layer Moduli Backcalculation Procedure, SHRP-P-655, Strategic Highway Research Program, National Academy of Science, 1993. 6. Von Quintus, Harold L. and Brian Killingsworth Backcalculation of Layer Moduli of SHRP-LTPP General Pavement Study (GPS) Sites, Publication No. FHWA-RD-97-086, Federal Highway Administration, May 1997. 7. Michalak, C.H. and Scullion, T., MODULUS 4.2: User's Manual, Research Report 1939-1, Texas Transportation Institute, 1993. 8.",
+            "text_truncated": false
+          }
+        ],
+        "candidate_count": 32,
+        "duplicates_removed": 0,
+        "candidate_scan_truncated": false,
+        "truncated": true,
+        "coverage": {
+          "section_roles_present": [
+            "other"
+          ],
+          "section_roles_not_observed": [
+            "purpose",
+            "methods",
+            "findings",
+            "conclusions",
+            "limitations",
+            "recommendations"
+          ],
+          "basis": "Heuristic labels from retrieved section headings; not verification of content coverage.",
+          "complete_report": false
+        },
+        "warnings": [
+          "Selected passages only; not a complete report or exhaustive corpus search. A retrieved match does not by itself establish support for a claim."
+        ]
+      }
+    },
+    {
+      "case_id": "overview",
+      "tool": "retrieve_evidence",
+      "arguments": {
+        "mode": "report_overview",
+        "doc_id": "FHWA_HRT_15_074"
+      },
+      "seconds": 1.1664,
+      "passed": true,
+      "payload": {
+        "mode": "report_overview",
+        "scope": "publication",
+        "query": null,
+        "doc_id": "FHWA_HRT_15_074",
+        "corpus_version": "v1",
+        "passages": [
+          {
+            "rank": 1,
+            "chunk_id": "FHWA_HRT_15_074__p0021-p0025__c002",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "CHAPTER 1. INTRODUCTION",
+            "page_start": 21,
+            "page_end": 25,
+            "text": "CHAPTER 1. INTRODUCTION State transportation departments invest billions of dollars each year on providing and managing the transportation infrastructure assets to meet legislative, agency, and public expectations. Pavements are a major component of those transportation assets, with pavement rehabilitation being one of the most critical, costly, and complex elements. This is especially true at present, since a large percentage of pavement networks are reaching the end of their serviceable life, and pavement rehabilitation has become even more daunting given the funding constraints faced by State transportation departments. At the heart of rehabilitation decisions is the pavement management system (PMS), which provides network-level condition indices or scores for each pavement segment in the system.",
+            "text_truncated": false
+          },
+          {
+            "rank": 2,
+            "chunk_id": "FHWA_HRT_15_074__p0037-p0040__c038",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "4.1 ANALYSIS METHODOLOGIES",
+            "page_start": 37,
+            "page_end": 40,
+            "text": "CHAPTER 4. DATA COLLECTION AND ANALYSIS WORK PLAN Based on a literature review and a survey of device manufacturers, owners, and users, the TSD and the RWD were identified as potentially being capable of meeting the project objectives. The term \u201cTSDD\u201d is used to collectively refer to the two devices. This chapter details the work plan that was developed and implemented for the field trials and subsequent analyses that were carried out over the remainder of the project to accomplish the following objectives: \u2022 To confirm that the TSDDs met a minimum set of specifications related to the structural evaluation of pavements at the network level. \u2022 To propose processes to incorporate pavement structural information from the successful TSDDs into network-level PMS applications These objectives and hence the work plan were driven by the analyses that were conducted over the remainder of the project. The work plan was organized into the following sections: analysis methodologies, field trial locations, testing sequence, schedule, and summary.",
+            "text_truncated": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "FHWA_HRT_15_074__p0026-p0031__c011",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "2.2 LITERATURE REVIEW FINDINGS",
+            "page_start": 26,
+            "page_end": 31,
+            "text": "2.2 LITERATURE REVIEW FINDINGS Arora et al. summarized the state of the art of continuous deflection devices by investigating an Airfield RWD, a Swedish road deflection tester, a Texas rolling dynamic deflectometer, a Danish high-speed deflectograph, and the RWD from this study.(3) The research also investigated new methods for structural evaluation, including modulus, deflection ratios, modified modulus and deflection ratios, a method using structural numbers (SNs), an alternative method for determining SN from FWD data, and a simple approach to estimate the SN of pavements. The key findings from Arora et al. are as follows:(3) \u2022 The best return on investment in acquiring and operating a rapid continuous deflection device is realized when measurements can be used to delineate pavement sections that are structurally marginal. This would allow the agencies to program the maintenance or rehabilitation of the sections in subsequent fiscal years. \u2022 A high-speed device with more than one deflection sensor is desirable. Devices with one deflection sensor can delineate the pavement sections that are structurally in poor condition, but the uncertainty in delineating structurally marginal pavement sections may be high.",
+            "text_truncated": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "FHWA_HRT_15_074__p0217-p0221__c269",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "Summary and Conclusions from 3D-Move Analyses",
+            "page_start": 217,
+            "page_end": 221,
+            "text": "Table 67. Most appropriate correlated indices with maximum horizontal AC strain with total database (79 cases). Best Indices (with Respect to Maximum Horizontal Strain) Index R2 R1 R112 0.94 R118 0.97 R124 0.95 R2 R212 0.92 R218 0.96 R224 0.97 R236 0.94 R248 0.90 SCI SCI12 0.94 SCI18 0.97 SCI24 0.95 SCIm8 0.92 SCIm12 0.96 SCIm18 0.97 SCIm24 0.94 DSI DSI4 \u2212 8 0.94 DSI4 \u2212 12 0.97 DSI4 \u2212 18 0.95 DSI4 \u2212 24 0.92 DSI8 \u2212 12 0.96 DSI8 \u2212 18 0.91 TS TS8 0.97 SD SD12 0.94 SD18 0.97 SD24 0.95 AUPP Am 0.95",
+            "text_truncated": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "FHWA_HRT_15_074__p0248-p0248__c327",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "10.2 DATA COLLECTION RECOMMENDATIONS",
+            "page_start": 248,
+            "page_end": 248,
+            "text": "ay of minimizing the amount of random noise in the raw data, but excessive averaging can also mask changes in the signal due to changes in the structural condition of the pavement.\n\nThe TSDD developers have carefully studied the raw signals from their devices to propose the optimal averaging distances. However, the level of sophistication of the data analysis in the suggested balanced system should be set based on the capabilities of the TSDDs. As such, the uncertainties in the deflection measurements should be delineated from the spatial variation in the measurements due to changes in the pavement structure or condition. In the short term, manufacturers would report not only the mean deflection parameters but also additional statistical information (such as the standard deviations or coefficients of variation) associated with those mean values and their variability. In that manner, the analyst can judge the level of uncertainties associated with each deflection parameter reported. In the medium term, the level of uncertainties in the measured deflection parameters should be verified through independent research. Such analysis requires access to the raw or spatially averaged data over a short distance (e.g., 3.28 ft (1 m) or less). In the long term, manufacturers would improve their devices to a level that the averaging can be done as part of the analysis and not data collection. The data collection should ideally be done at the posted speed limit.",
+            "text_truncated": false
+          },
+          {
+            "rank": 6,
+            "chunk_id": "FHWA_HRT_15_074__p0245-p0245__c318",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "CHAPTER 10. RECOMMENDATIONS",
+            "page_start": 245,
+            "page_end": 245,
+            "text": "CHAPTER 10. RECOMMENDATIONS The ultimate goal of the project was to establish a reliable measure of the structural condition of all bound pavement layers above the unbound base layer as it deteriorates over time under traffic and environmental loading based on moving pavement deflection technology and measured at posted traffic speeds. Towards achieving this goal, the study focused on the following two activities: \u2022 Evaluating the capabilities of the available TSDDs. \u2022 Developing compatible analysis methodologies for enabling the quantification of pavement deterioration over time under traffic and environmental loading. A system approach was followed so that the TSDDs could be effectively used as a tool for network-level PMS applications and decisionmaking. The flowchart of an idealized system is shown in figure 219. There are several alternative approaches for implementation. In the suggested approach, the decisions based on the traditional condition metrics are confirmed and/or adjusted based on the pavement structural condition as derived from the TSDD measurements. In this manner, the pavement community has the opportunity to gradually implement the proposed changes while avoiding abrupt changes to their institutional approaches.\n\nFigure 219. Flowchart. Idealized PMS containing TSDD structural evaluation component. To deliver a robust system, the level of analysis sophistication should be balanced with the uncertainties of the TSDDs. Since the manufacturers are actively improving the TSDDs, the interpretation and analyses software should also be progressively improved. The following factors were considered in proposing areas of opportunity for improvements to the system in an integrated and balanced manner:",
+            "text_truncated": false
+          },
+          {
+            "rank": 7,
+            "chunk_id": "FHWA_HRT_15_074__p0032-p0032__c028",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "2.3 SUMMARY",
+            "page_start": 32,
+            "page_end": 32,
+            "text": "2.3 SUMMARY As a result of the literature reviewed and the findings summarized in this chapter, it was concluded the both the RWD and the TSD are potentially viable devices, which merit further evaluation. Although the Dynatest\u00ae RWD device also appears to be promising, until it is actually functional, it is premature to label it as a potentially viable device. It was anticipated that a functional Dynatest\u00ae RWD would be available early in the project; however, that was not the case, and the device was dropped from further consideration in this project. Dynatest\u00ae subsequently indicated that they expect to have a functional device by late 2017.",
+            "text_truncated": false
+          },
+          {
+            "rank": 8,
+            "chunk_id": "FHWA_HRT_15_074__p0021-p0025__c003",
+            "doc_id": "FHWA_HRT_15_074",
+            "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+            "report_no": "FHWA-HRT-15-074",
+            "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+            "section_header": "CHAPTER 1. INTRODUCTION",
+            "page_start": 21,
+            "page_end": 25,
+            "text": "At the heart of rehabilitation decisions is the pavement management system (PMS), which provides network-level condition indices or scores for each pavement segment in the system.\n\nEarlier generations of PMSs were driven by ride quality and distress as a direct result of the American Association of State Highway Officials Road Test, which introduced the concept of the Present Serviceability Rating and Present Serviceability Index.(1) With advances in technology, pavement engineers started to use distress (i.e., cracking, rutting, etc.) and longitudinal roughness, typically in the form of the International Roughness Index (IRI), as key pavement performance indicators in the pavement management decisionmaking process. Both distress and roughness are important indicators that merit emphasis within the PMS process. However, another important indicator necessary to make rational pavement investment decisions is structural adequacy. A few State transportation departments are beginning to consider structural adequacy as part of their routine PMS activities by incorporating deflection testing. At present, there is a large array of equipment that can be used to measure the deflection basin resulting from an applied load. The most commonly used device in the United States since the 1980s is the falling weight deflectometer (FWD).",
+            "text_truncated": false
+          }
+        ],
+        "candidate_count": 393,
+        "duplicates_removed": 0,
+        "candidate_scan_truncated": false,
+        "truncated": true,
+        "coverage": {
+          "section_roles_present": [
+            "purpose",
+            "methods",
+            "findings",
+            "conclusions",
+            "recommendations",
+            "other"
+          ],
+          "section_roles_not_observed": [
+            "limitations"
+          ],
+          "basis": "Heuristic labels from retrieved section headings; not verification of content coverage.",
+          "complete_report": false
+        },
+        "warnings": [
+          "Selected passages only; not a complete report or exhaustive corpus search. A retrieved match does not by itself establish support for a claim.",
+          "Section roles are inferred from headings; unobserved roles may still occur in the report. Use scoped follow-up queries to investigate gaps."
+        ]
+      }
+    },
+    {
+      "case_id": "invalid_input",
+      "tool": "retrieve_evidence",
+      "arguments": {
+        "mode": "report_overview"
+      },
+      "seconds": 0.0067,
+      "passed": true,
+      "payload": {
+        "error": {
+          "code": "INVALID_ARGUMENT",
+          "message": "Check the tool inputs and documented limits."
+        }
+      }
+    },
+    {
+      "case_id": "unknown_report",
+      "tool": "get_publication",
+      "arguments": {
+        "doc_id": "NONEXISTENT-MCP-EVALUATION-REPORT"
+      },
+      "seconds": 0.0123,
+      "passed": true,
+      "payload": {
+        "error": {
+          "code": "PUBLICATION_NOT_FOUND",
+          "message": "Publication not found. Use search_publications to select a corpus document ID."
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "First call includes any remaining local warm-up time; later calls use the warm server.",
+    "Checks transport, scope, bounds and errors; does not score answer accuracy or automatic discovery.",
+    "No generation tools are called; the client model is not involved."
+  ]
+}

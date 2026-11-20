@@ -1,0 +1,9 @@
+[
+  {"id":"catalog", "tool":"search_publications", "arguments":{"search":"pavement deflection", "limit":3}},
+  {"id":"metadata", "tool":"get_publication", "arguments":{"doc_id":"FHWA_HRT_15_074"}},
+  {"id":"comparison", "tool":"retrieve_evidence", "arguments":{"query":"How do FWD and traffic speed deflectometer measurements differ?"}},
+  {"id":"scoped", "tool":"retrieve_evidence", "arguments":{"query":"backcalculation methods and limitations", "doc_id":"FHWA_RD_97_076"}},
+  {"id":"overview", "tool":"retrieve_evidence", "arguments":{"mode":"report_overview", "doc_id":"FHWA_HRT_15_074"}},
+  {"id":"invalid_input", "tool":"retrieve_evidence", "arguments":{"mode":"report_overview"}, "expected_error":"INVALID_ARGUMENT"},
+  {"id":"unknown_report", "tool":"get_publication", "arguments":{"doc_id":"NONEXISTENT-MCP-EVALUATION-REPORT"}, "expected_error":"PUBLICATION_NOT_FOUND"}
+]

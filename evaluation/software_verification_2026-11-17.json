@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-17",
+  "prepared_by": "Pavement Knowledge MCP team",
+  "server_version": "0.4.1",
+  "environment": {
+    "python": "3.11.14",
+    "platform": "Windows",
+    "architecture": "AMD64",
+    "pointer_bits": 64
+  },
+  "installation": {
+    "method": "Supplied setup.ps1 with an explicit Python 3.11 executable and the included offline wheelhouse",
+    "new_virtual_environment": true,
+    "system_site_packages": false,
+    "existing_base_python_and_prepared_assets_reused": true,
+    "locked_dependencies_checked": 113,
+    "locked_versions_match": true,
+    "pip_check": "passed"
+  },
+  "software_checks": {
+    "passed": 25,
+    "total": 25,
+    "suites": {
+      "foundation": 3,
+      "tools": 10,
+      "evidence": 12
+    }
+  },
+  "portable_tool_checks": {
+    "passed": 7,
+    "total": 7,
+    "case_ids": [
+      "catalog",
+      "metadata",
+      "comparison",
+      "scoped",
+      "overview",
+      "invalid_input",
+      "unknown_report"
+    ],
+    "results": "portable_results_2026-11-17.json",
+    "inputs": "../server/evaluation/cases.json"
+  },
+  "configuration_helper": "Generated paths correctly identify the isolated installation",
+  "file_integrity": {
+    "operational_files_match_original": true,
+    "original_and_release_not_changed_by_tests": true,
+    "test_copy_code_unchanged": true
+  },
+  "scope": "Installation, local server startup and tool operation on Windows; does not score AI-written answers or verify other platforms."
+}

@@ -1,0 +1,102 @@
+{
+  "review_date": "2026-11-10",
+  "purpose": "Post-response source verification; not an original answer-generation trace.",
+  "source_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+  "retrieval_evidence": {
+    "mode": "query",
+    "scope": "publication",
+    "query": "instantaneous speed axle spacing time peaks trigger GPS clock synchronized time stamping infrared",
+    "doc_id": "FHWA_HRT_15_074",
+    "corpus_version": "v1",
+    "passages": [
+      {
+        "rank": 1,
+        "chunk_id": "FHWA_HRT_15_074__p0071-p0087__c116",
+        "doc_id": "FHWA_HRT_15_074",
+        "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+        "report_no": "FHWA-HRT-15-074",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+        "section_header": "5.5 DATA REDUCTION",
+        "page_start": 71,
+        "page_end": 87,
+        "text": "ins and stresses in figure 39 through figure 42. However, the results were adjusted when the experimental results were compared with the numerical ones in chapter 7 of this report.\n\nFigure 39. Graph. MnROAD strain gauge data.\n\nFigure 40. Graph. MnROAD strain gauge reduced data. -4150 -4100 -4050 -4000 -3950 -3900 23:07.0 23:08.7 23:10.5 23:12.2 23:13.9 Strain (microstrain) Time (min:s) -4150 -4100 -4050 -4000 -3950 -3900 -7 -5 -3 -1 1 3 5 7 9 Strain (microstrain) Distance (ft)\n\n1 psi = 6.89 kPa Figure 41. Graph. MnROAD soil compression gauge data.\n\n1 psi = 6.89 kPa 1 ft = 0.305 m Figure 42. Graph. MnROAD soil compression gauge reduced data. Figure 43 shows a typical voltage time history obtained from an embedded geophone, with the peak voltage outputs created by the front and trailing rear axles marked. As with the other sensors, the time difference between the two peaks was divided by the front-axle-to-rear-axle distance of each TSDD to obtain accurate instantaneous vehicle speed, assuming that the time lags between the maximum displacement parameters and the time the tire passed over a sensor was constant for the front axle and the trailing rear axle. 0.0 0.5 1.0 1.5 2.0 2.5 23:07.0 23:08.7 23:10.5 23:12.2 23:13.9 Pressure (psi) Time (min:s) 0.0 0.5 1.0 1.5 2.0 2.5 -7 -5 -3 -1 3 5 7 9 Pressure (psi) Distance (ft)",
+        "text_truncated": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "FHWA_HRT_15_074__p0071-p0087__c128",
+        "doc_id": "FHWA_HRT_15_074",
+        "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+        "report_no": "FHWA-HRT-15-074",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+        "section_header": "5.5 DATA REDUCTION",
+        "page_start": 71,
+        "page_end": 87,
+        "text": "he geophone (solid vertical line) occurred. After calculating the lag for each pass, all data points were shifted accordingly. The estimated response lags are reported in table 16.\n\nGiven the sampling rate of the newly installed geophone data and uncertainty in the process used, the uncertainty associated with the estimation of the phase lags was estimated to be -800 -400 0 400 800 -8 -6 -4 -2 0 2 4 6 8 10 Velocity (mil/s) Distance (ft) GEO1 GEO2 GEO3 ACC1 GEO4 TSD TRIG -15 -5 -8 -6 -4 -2 0 2 4 6 8 10 Deflection (mil) Distance (ft) GEO1 GEO2 GEO3 ACC1 GEO4 RWD TRIG\n\n1–2 inches (25.4–50.8 mm). For the RWD passes, the response lags were estimated based on the measured deflections, while for the TSD, they corresponded to the surface particle velocities. The response lag varied with vehicle speed, temperature, and pavement structure. The time lags for cell 19 had to be determined differently since the body of the TSD interfered with the trigger signal. These time lags were approximated using an average wheel diameter of 3.2 ft (0.98 m) since the trigger signal for this cell covered both of the wheels (rear axle and the distant measuring instrument (DMI) wheel).",
+        "text_truncated": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "FHWA_HRT_15_074__p0071-p0087__c117",
+        "doc_id": "FHWA_HRT_15_074",
+        "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+        "report_no": "FHWA-HRT-15-074",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+        "section_header": "5.5 DATA REDUCTION",
+        "page_start": 71,
+        "page_end": 87,
+        "text": "ling rear axle. 0.0 0.5 1.0 1.5 2.0 2.5 23:07.0 23:08.7 23:10.5 23:12.2 23:13.9 Pressure (psi) Time (min:s) 0.0 0.5 1.0 1.5 2.0 2.5 -7 -5 -3 -1 3 5 7 9 Pressure (psi) Distance (ft)\n\nFigure 43. Graph. Embedded sensor full time history with the peaks created by rear and front axles. The next step of the data analysis was to extract the appropriate range of information from all five newly embedded displacement sensors before, during, and after the rear axle of the TSDD drove over them over an approximate range of -7 to 10 ft (-2.14 to 3.05 m) from sensor unit 3. Figure 44 shows the voltage time histories from the geophone and accelerometer in sensor unit 3 from a typical TSDD pass.",
+        "text_truncated": false
+      },
+      {
+        "rank": 4,
+        "chunk_id": "FHWA_HRT_15_074__p0071-p0087__c114",
+        "doc_id": "FHWA_HRT_15_074",
+        "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+        "report_no": "FHWA-HRT-15-074",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+        "section_header": "5.5 DATA REDUCTION",
+        "page_start": 71,
+        "page_end": 87,
+        "text": "cted were first subjected to a preliminary quality control. Quality control included classification and discarding of defective or unnecessary data for the purpose of this project.\n\nSince not all existing MnROAD embedded sensors were operational, their data were first visually inspected to identify the sensors that were operational at each cell. Typical examples of strain gauge and pressure cell data from one location are shown in figure 39 and figure 40. For each TSDD pass, the vehicle speed was calculated using the time between peaks generated by the front and the trailing rear axles and the exact distance between the axles. The vehicle speed obtained in that manner was then compared to the vehicle speed reported by the TSDD. The results were very comparable. Vehicle speed was then used to convert time into distance. Assuming that the peak value from the rear axle was obtained when the axle was directly on top of a sensor, data from -7 to 10 ft (-2.14 to 3.05 m) from the instant they occurred were extracted, as shown in figure 41 and figure 42. These extracted data were further summarized to discrete measurements at 1-ft (0.305-m) intervals to be uploaded into the project database. Given the viscoelastic nature of flexible pavements, a time lag between the time that the tire crosses over the sensor and when the maximum response is measured is anticipated.",
+        "text_truncated": false
+      },
+      {
+        "rank": 5,
+        "chunk_id": "FHWA_HRT_15_074__p0063-p0070__c109",
+        "doc_id": "FHWA_HRT_15_074",
+        "doc_title": "Pavement Structural Evaluation at the Network Level: Final Report",
+        "report_no": "FHWA-HRT-15-074",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf",
+        "section_header": "5.3 SITE INSTRUMENTATION",
+        "page_start": 63,
+        "page_end": 70,
+        "text": "ed on a similar base that offered the same benefits. These sensors had a sensing distance of up to 23 ft (7.02 m) and worked with 12 Vdc with an output pulse of the same amplitude.\n\n1 ft = 0.305 m Figure 36. Illustration. Test section layout with positioning sensors placement. Markings for the trigger sensor positions were placed on the rest of the cells where accuracy testing was to be performed. The data acquisition (DAQ) system program was also modified to capture them in the data files. One positioning sensor was placed directly across from sensor unit 3 (geophone 3), a second positioning sensor was placed 132 ft (40.26 m) before sensor unit 3, and a third positioning sensor was placed 132 ft (40.26 m) after sensor unit 3. The reason behind the trigger spacing was the need to collect at least 3 s of information on each pass. The fastest vehicle speed proposed for testing (i.e., 60 mi/h (96.6 km/h)) resulted in a total length of 264 ft (80.52 m) for the test section. With this arrangement, the trigger sensor was placed 132 ft (40.26 m) before sensor unit 3 and was used to initiate the DAQ. The purpose for the trigger placed across sensor unit 3 was to use it as a reference to compare the shape of the deflection captured with the embedded sensors and the pulse width created by the tire as it crossed the trigger.",
+        "text_truncated": false
+      }
+    ],
+    "candidate_count": 32,
+    "duplicates_removed": 0,
+    "candidate_scan_truncated": false,
+    "truncated": true,
+    "coverage": {
+      "section_roles_present": [
+        "other",
+        "methods"
+      ],
+      "section_roles_not_observed": [
+        "purpose",
+        "findings",
+        "conclusions",
+        "limitations",
+        "recommendations"
+      ],
+      "basis": "Heuristic labels from retrieved section headings; not verification of content coverage.",
+      "complete_report": false
+    },
+    "warnings": [
+      "Selected passages only; not a complete report or exhaustive corpus search. A retrieved match does not by itself establish support for a claim."
+    ]
+  },
+  "claim_review": "comparison_review.md"
+}

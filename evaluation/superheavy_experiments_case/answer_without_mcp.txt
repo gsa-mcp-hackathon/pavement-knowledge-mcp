@@ -1,0 +1,22 @@
+I could not verify the requested experiment details from the documents currently accessible to me. I searched the available conversation/library research documents for **FHWA-HRT-18-050**, “sloped shoulder,” “buried utilities,” “superheavy load,” and related terminology. The report itself is **not present in the accessible collection**, and the other documents retrieved do not reproduce the relevant experimental configurations, loading locations, measurements, or report page/table numbers.
+
+Because your proposal needs defensible citations, I would **not infer or reconstruct those details from memory**. Specifically, I cannot currently verify:
+
+- the layer thicknesses/materials used in either the sloped-shoulder or buried-utility experiment;
+- the transporter/load-device configuration, individual wheel loads, or exact loading positions;
+- instrumentation locations or which stresses, strains, deflections, or utility responses were measured;
+- the corresponding pages, tables, or figures in FHWA-HRT-18-050.
+
+### What can safely be said for your proposal
+
+Conceptually, those two experiments address two important failure mechanisms for superheavy-load movement: **loss of pavement/soil support near a roadway edge or sloping shoulder**, and **interaction between concentrated surface loading and a shallow buried structure**. They therefore provide relevant experimental precedents for checking mechanistic models used in superheavy-load route assessment.
+
+They do **not, by themselves, establish validation for a transporter carrying a 3-million-lb transformer** unless the FHWA tests reproduced—or were demonstrably scalable to—the actual transporter’s multiwheel geometry, axle-line spacing, wheel loads/contact pressures, crawl speed, lateral position, pavement structure, shoulder geometry, utility depth/stiffness, and nonlinear subgrade behavior. I cannot verify from the available documents that FHWA-HRT-18-050 covered that combined loading regime.
+
+### Recommended follow-up validation task
+
+Conduct a **full-scale instrumented multiwheel loading experiment** representing one or more critical axle-line groups of the proposed transporter. Include both (1) an edge/shoulder section with representative cross-slope and (2) a section containing a representative buried utility. Measure pavement surface deflection, asphalt/base strains, subgrade vertical/lateral stresses, permanent deformation, and utility strain/deflection. Compare measured time histories and peak responses against the proposed numerical model—not just calculated failure criteria.
+
+That experiment would directly test the key extrapolation that remains uncertain: whether a model validated under the FHWA experimental loading conditions remains accurate for the **extreme multiwheel interaction and spatial load accumulation of a 3-million-lb transport system**.
+
+If FHWA-HRT-18-050 is uploaded or made available in your document library, I can produce the requested page/table-cited comparison without using the web.

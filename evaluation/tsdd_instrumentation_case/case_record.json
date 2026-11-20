@@ -1,0 +1,96 @@
+{
+  "case_id": "tsdd_instrumentation",
+  "title": "Instrumented pavement and TSDD measurement alignment",
+  "report_id": "FHWA_HRT_15_074",
+  "assessment_date": "2026-11-10",
+  "owner": "Pavement Knowledge MCP team",
+  "status": "reviewed_and_approved",
+  "response_provenance": "Original submitted model outputs preserved unchanged.",
+  "model": {
+    "reported_label": "sole 5.6",
+    "reasoning": "high",
+    "same_model_both_conditions": "reported",
+    "verified_model_id": null
+  },
+  "conditions": {
+    "labels": [
+      "Without pavement MCP",
+      "With pavement MCP"
+    ],
+    "baseline_other_sources": "Answer reports two related papers and a report-derived project summary. This is not a source-free baseline.",
+    "web_policy": "Prepared prompt prohibits web access; permits research-document tools. Original generation logs not supplied.",
+    "exact_submitted_prompts": "Intended common prompt saved; original submitted strings not separately supplied.",
+    "other_tool_parity": "not independently documented",
+    "fresh_context": "not independently documented for this pair",
+    "companion_skill_state": null
+  },
+  "files": {
+    "prompt": "prompt.txt",
+    "without_mcp": "answer_without_mcp.txt",
+    "with_mcp": "answer_with_mcp.txt",
+    "review": "comparison_review.md",
+    "audit": "source_audit_tool_results.json",
+    "source_text": "report_pages.json"
+  },
+  "assessment": {
+    "status": "project_team_SME_approved",
+    "scale": "0 deficient/not demonstrated, 1 partly meets, 2 meets this limited task",
+    "scores": [
+      {
+        "criterion": "technical correctness and fidelity",
+        "without_mcp": 2,
+        "with_mcp": 1
+      },
+      {
+        "criterion": "completeness",
+        "without_mcp": 1,
+        "with_mcp": 2
+      },
+      {
+        "criterion": "claim-level source support",
+        "without_mcp": 1,
+        "with_mcp": 2
+      },
+      {
+        "criterion": "scope and uncertainty",
+        "without_mcp": 2,
+        "with_mcp": 2
+      }
+    ],
+    "optional_totals": {
+      "without_mcp": 6,
+      "with_mcp": 7,
+      "maximum": 8
+    },
+    "material_correction": "Speed equals axle spacing divided by elapsed time between corresponding response peaks. MCP response repeats apparent source-text inversion on PDF p73 (printed p53).",
+    "limit": "Task-specific rubric assessment; not an accuracy percentage, independent external validation or general performance estimate.",
+    "preparation": "AI-assisted"
+  },
+  "sme_review": {
+    "status": "approved",
+    "reviewer_role": "project-team pavement subject-matter expert",
+    "date": "2026-11-12",
+    "scope": "paired answers and documented assessment",
+    "review_type": "project-team review of AI-assisted assessment; not independent external validation"
+  },
+  "source_audit": {
+    "date": "2026-11-10",
+    "type": "Post-response review, not original tool trace",
+    "key_claims": "checked against original report text",
+    "visual_pages": [
+      65,
+      67,
+      70,
+      73,
+      143
+    ],
+    "related_article_pagination": "not fully verified",
+    "run_results": "not audited; report wording error does not establish computation error",
+    "original_pdf_sha256": "7E3BE82F6586B8B467A26F9EFBA31D4C61A7013B5BF60E003B623CB15DF9FC7C",
+    "source_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/15074/15074.pdf"
+  },
+  "hashes": {
+    "without_mcp": "4167B5E6FB5692B789B03175C890935A3032208925D23241EF4B1792EB2C45E1",
+    "with_mcp": "93696C84A4486256EDEA74D82C2582E83623D819B884B9EF2F3DCC2A45B06EB7"
+  }
+}

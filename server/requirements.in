@@ -1,0 +1,13 @@
+# Core runtime plus optional Parquet acceleration.
+# Versions reproduce the known working retrieval stack.
+mcp==2.2.0
+mcp-types==2.2.0
+anyio==4.12.1
+pydantic==2.12.5
+chromadb==1.5.1
+sentence-transformers==5.2.3
+pyarrow==23.0.1
+# Pin model-loading dependencies to avoid changing embedding behavior.
+torch==2.10.0
+transformers==5.2.0
+huggingface-hub==1.5.0

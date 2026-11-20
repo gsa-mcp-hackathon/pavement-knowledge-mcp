@@ -1,0 +1,19 @@
+I could not access the **FHWA-HRT-15-074 PDF itself** in the available research-document library, so I cannot responsibly give its exact report page numbers. However, I found two papers from the same FHWA/MnROAD project that explicitly reference FHWA-HRT-15-074 and document the experimental procedure, plus a report-derived literature summary in your project files. The following distinguishes those documented procedures from recommendations.
+
+### Documented FHWA/MnROAD procedure
+
+**Instrumentation and layout.** Three flexible MnROAD sections were used: Cells **3 and 19** on the Mainline and **34** on the Low Volume Road, representing relatively stiff, intermediate, and soft structures. Four geophones were embedded almost flush with the surface in each section. GEO1 and GEO3 were on the wheel-path centerline; the other two were offset **150 mm (6 in.) laterally** to accommodate wheel wander. Existing MnROAD longitudinal strain gauges measured tensile strain near the bottom of the AC, and thermocouple trees measured pavement temperature with depth. See Nasimifar et al. (2015), article p. 2, **Fig. 1** and **Table 1**; the later paper reproduces the configuration as **Fig. 2** (Nasimifar et al., 2017, pp. 1703–1704).
+
+The report-derived summary in the available project files further identifies the installation as **four 4.5-Hz geophones plus one DC MEMS accelerometer per cell**. Geophones were shaker-table calibrated using a reference accelerometer, then checked after installation by placing an FWD sensor directly over the embedded sensor before final grouting. I cannot independently confirm the corresponding FHWA-HRT-15-074 page/figure.
+
+**Signals.** Geophones measured vertical pavement velocity, subsequently integrated when displacement was required; the accelerometer provided vertical acceleration. The TSD measured vertical deflection velocity at **100, 200, 300, 600, 900, and 1,500 mm ahead of the rear axle**. The RWD measured displacement at 184 mm behind and 197 mm ahead of its axle (Nasimifar et al., 2017, p. 1703).
+
+**Position and synchronization.** A **laser trigger across the lane** identified passage of the vehicle/rear axle and synchronized load position with pavement-response time histories. Trigger and deflection records were superimposed; the time from wheel passage to maximum response was determined and multiplied by measured vehicle speed to express response lag as distance (Nasimifar et al., 2017, p. 1703; **Table 3, pp. 1708–1709**).
+
+**Reported limitations.** Wheel-path misalignment remained possible despite lateral sensors; response lag changed with pavement stiffness and speed. The report-derived summary also records that TSDD outputs were spatial averages rather than measurements exactly at the embedded sensor and that **15 of 64 accelerometer records were rejected because of electrical interference/missing grounding**.
+
+### Recommendations for your experiment
+
+Carry over the **calibrated geophone reference, lateral redundancy, post-installation FWD check, independent axle trigger, actual vehicle-speed measurement, repeated passes, and pavement-temperature monitoring**.
+
+I would improve the experiment by comparing **velocity-to-velocity first**, avoiding integration uncertainty; use redundant axle-position triggers and surveyed sensor coordinates; measure actual lateral wheel path each pass; verify grounding/shielding before every run; retain synchronized raw time histories rather than only spatially averaged TSDD outputs; and document synchronization uncertainty explicitly. If feasible, add an independent noncontact LDV measurement at the primary geophone location to establish whether disagreement originates with the TSDD or embedded reference system.

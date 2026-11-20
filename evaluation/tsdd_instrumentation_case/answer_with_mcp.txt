@@ -1,0 +1,19 @@
+Reported procedure
+
+At MnROAD, FHWA instrumented four cells: flexible cells 3, 19, and 34 spanning stiff-to-soft structures, plus PCC cell 72. Each received four near-surface 4.5-Hz geophones and one DC accelerometer—16 geophones and four accelerometers total. Geophones 1 and 3 were centered in the right wheelpath; geophones 2 and 4 were offset 6 inches laterally on either side; the accelerometer shared geophone 3’s housing. Sensors were installed in approximately 2.2–2.5-inch-deep cores, with wire grooves, aluminum protection, grout, and shaker-table calibration. Before final grouting, every sensor was checked against an FWD sensor directly above it. Two cameras documented lateral wheel position. (PDF pp. 63–70, Figs. 23–35; pp. 267–268; Fig. 140 on pp. 143–154.)
+
+Geophones measured vertical surface particle velocity; integration produced displacement. Accelerometers measured acceleration, transformed by FFT and integrated once for velocity and twice for displacement. Existing MnROAD strain gauges, pressure cells, thermocouples, moisture sensors, and some LVDT data supplied strains, vertical pressures, temperature/moisture, and displacement mainly for model calibration—not the principal TSDD accuracy reference. (PDF pp. 58, 71–87, Figs. 39–52; pp. 127–137, Tables 31–32.)
+
+Three retroreflective infrared triggers were positioned 132 ft before, directly opposite geophone 3, and 132 ft after it; the first started acquisition. Front- and rear-axle response peaks, divided by known axle spacing, provided instantaneous speed. Time was converted to distance, with the rear-axle peak initially treated as the sensor-crossing position; records from −7 to +10 ft were extracted. Trigger pulses and response bowls were superimposed to estimate viscoelastic response lag, after which all points were shifted. Lag-position uncertainty was estimated at 1–2 inches. Project data used a GPS clock; TSDD records were matched by clocks and the nearest GPS-reported location. (PDF pp. 63–70, Fig. 36; pp. 71–87, Figs. 41–48, Table 16.)
+
+Because TSD and RWD outputs were averages over 32 and 50 ft, respectively, exact one-to-one matching was impossible. The closest averaged record was compared at device-specific offsets—TSD: 4–60 inches; RWD: −7.25 and +7.75 inches—using three replicate passes. (PDF pp. 71–87, Figs. 53–58, Tables 17–18.)
+
+### Documented limitations
+
+Existing MnROAD displacement sensors were unreliable; 15 of 64 accelerometer records were defective; double integration increased uncertainty; cell 19’s trigger was obscured by the TSD body; PCC-cell signals and TSD 36/60-inch responses were too small; raw TSDD data were unavailable. Surface texture and moisture effects were not studied. Installation/alignment analysis uncertainty was about ±7 percent, with lag uncertainty above. (PDF pp. 52–57, 71–101.)
+
+### Recommendations for our experiment
+
+Carry over the redundant geophone/accelerometer array, FWD acceptance testing, physical triggers, wheelpath video, repeated speeds, and temperature monitoring. Improve it with a shared GNSS/PPS clock and raw high-rate data from every system; surveyed sensor coordinates and automated lateral wheel tracking; redundant optical/radar axle triggers; measured wheel loads; denser temperature/moisture and surface-texture observations; and sensors selected to resolve rigid-pavement responses.
+
+I could not verify the DAQ sampling rate, complete existing-sensor coordinates, or a hardware-level common-clock synchronization protocol from the retrieved passages.

@@ -1,0 +1,1080 @@
+{
+  "bundle_version": "0.4.1-final-submission.2",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 99,
+      "sha256": "8a535056f462d3b3da3385c5f8fd898fcaaaf6af9c0454810f0768a3abc49d45"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 2559,
+      "sha256": "50a10f9f62aa78d39707bcb17314c989c6dd729665d1b3d70452b3c254d90b8e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3225,
+      "sha256": "1f71028c1fbfe0649ad75ed94c1bc6e63320c6291df15132d8969183c526a323"
+    },
+    {
+      "path": "USE_NOTICE.md",
+      "bytes": 649,
+      "sha256": "2b70e41ef57667a65498965cad3be0d2ecef422e35ab2fed9d8e9d3111607cd0"
+    },
+    {
+      "path": "evaluation/README.md",
+      "bytes": 3499,
+      "sha256": "2d41c3f1cfcb7904f8658155ddd971a4706f9457f97995a47dbdf1f50829b817"
+    },
+    {
+      "path": "evaluation/claude_trial_review.md",
+      "bytes": 396,
+      "sha256": "93b18b2c6c8aa49e974cc6aea88430281a774f63446868789122d5db4d837a6c"
+    },
+    {
+      "path": "evaluation/internal_sme_use_review.md",
+      "bytes": 735,
+      "sha256": "3507034e58b64fba0db000867805aeedca70e794817a17a95cd20cff73172348"
+    },
+    {
+      "path": "evaluation/portable_results_2026-11-17.json",
+      "bytes": 54023,
+      "sha256": "21f6515718af4f46bb5c5a3b01dd8d78a743e562ce7eeb6ba345a51ee19f887e"
+    },
+    {
+      "path": "evaluation/software_verification_2026-11-17.json",
+      "bytes": 1523,
+      "sha256": "faec4849730db7cd9b0948592ded0ce898da49ae14e3c2a4feac6459027c165c"
+    },
+    {
+      "path": "evaluation/software_verification_2026-11-17.md",
+      "bytes": 1491,
+      "sha256": "257f9de91175eaf7d6b44e372334f113214da6dde3c2c13b84d7437ffdd5174a"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/answer_with_mcp.txt",
+      "bytes": 5019,
+      "sha256": "91072e1abe9a621600cab4c56265ff99f6c3322d5796bd8d196d8126fcfa5042"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/answer_without_mcp.txt",
+      "bytes": 3030,
+      "sha256": "c72228ee2f649461f82aeba344d026e37e6fb73276aed5d927684084feb030ff"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/case_record.json",
+      "bytes": 3114,
+      "sha256": "c9f0f0ba8b5fcd22009086a1fc5917fd541b9c91b339aff209c543451db7c70f"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/comparison_review.md",
+      "bytes": 3721,
+      "sha256": "86a4f978b09ab76c3992099a0d4ce6d0d6a6900099303032f734506008c527c2"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/report_pages.json",
+      "bytes": 36156,
+      "sha256": "b9106e8904f5e662ed4ac3abfd707df6b318183efb1990354c5032e4ba2c9af6"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_audit_tool_results.json",
+      "bytes": 15050,
+      "sha256": "2f5c7ef6402029fbe470a2eb4049e741f88ad60281df451b7e0f482af2b92d9e"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_page_014.png",
+      "bytes": 241293,
+      "sha256": "eeb2fe55dd53d919daa717fb207d3cf41717210111d76ea41ffd330d513e8d3a"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_page_065.png",
+      "bytes": 219962,
+      "sha256": "1ee7f29c75af34a70c140e93839611715d90202419586f20c62c9ef3bf4664cf"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_page_069.png",
+      "bytes": 46879,
+      "sha256": "f008e65a33d65c887054bc90e9b59f1c5427f94d7d5a66905187bc5052fb4fac"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_page_076.png",
+      "bytes": 157571,
+      "sha256": "99a3f9ba132132934787f09efb7af740e75f9f53c492fe733f669e4523046a34"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_page_077.png",
+      "bytes": 56765,
+      "sha256": "d74a52b262c085db3422e2c8c0fb15c2502f09a0dca49c99c4d1111ef5523565"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_page_085.png",
+      "bytes": 266536,
+      "sha256": "1a1f35cd4355fc851acb08b8cc7648e62f5ce1627f749d0391f768a0ef6a7a98"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_page_086.png",
+      "bytes": 258177,
+      "sha256": "60f2b57e3e453316996678708286be5cd128a60c650be4f5b49170e0e1139140"
+    },
+    {
+      "path": "evaluation/superheavy_experiments_case/source_page_087.png",
+      "bytes": 176021,
+      "sha256": "7af5f58903f9f06d130a7e7a8f7753ceb31edbd2b82e972abb1b579419347224"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/answer_with_mcp.txt",
+      "bytes": 3589,
+      "sha256": "93696c84a4486256edea74d82c2582e83623d819b884b9ef2f3dcc2a45b06eb7"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/answer_without_mcp.txt",
+      "bytes": 3744,
+      "sha256": "4167b5e6fb5692b789b03175c890935a3032208925d23241ef4b1792eb2c45e1"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/case_record.json",
+      "bytes": 3582,
+      "sha256": "e28d7b1b2ad980e6b34f3cb586f1fefe8d1f52d12a810351d7a2dde5257950c9"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/comparison_review.md",
+      "bytes": 6392,
+      "sha256": "dea6d9b00355c2574ed6eff7452a3cc82c41fef0cd4b6df3d0a39eef565296d1"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/prompt.txt",
+      "bytes": 755,
+      "sha256": "12d02318ce6e7527126d960bd5f179fb422336fc84d2dc5dd33a9272b80c5440"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/report_pages.json",
+      "bytes": 526411,
+      "sha256": "cf7bd134348266eb66e99d3cde23175a7bee4381730d9fa7f1bc02534fd2270a"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_audit_tool_results.json",
+      "bytes": 9789,
+      "sha256": "ebc8bab69bc899245fa269fe9359a16f3a122225abfab817e61b091736cdadf3"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_065.png",
+      "bytes": 181300,
+      "sha256": "2dfb094d7e38ef8cb8e6ff83e986e310209d5df10bc8c9c3864b30e583b2fbbd"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_067.png",
+      "bytes": 470702,
+      "sha256": "f0261510f2702fa8727bd655fea24085c87d3218665a9eaa8d1a92cf822b7955"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_068.png",
+      "bytes": 200486,
+      "sha256": "779d86cf8dc8c49cd4996a25dacf29f1a17c7d1dff929886b73b1cf82fd21649"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_070.png",
+      "bytes": 212630,
+      "sha256": "48c9c45c168eade01d617ecfab90f6d9322f8ddbb40ac5dd22b0ceeedbfe99e9"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_073.png",
+      "bytes": 100886,
+      "sha256": "df002384256b5aa8019864de492589999f56dac382d1695b036ab0618e1ffe95"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_074.png",
+      "bytes": 173215,
+      "sha256": "021eda6fd7851360e0e87d0d191729c6ad36b687a787eb5fca189f4a036c2d43"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_075.png",
+      "bytes": 157444,
+      "sha256": "1ba61e10ef692ac35d18e0a0c3c2887f66d0f4eb88f91f5b2a11a719d0fce998"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_083.png",
+      "bytes": 163105,
+      "sha256": "0ff2829609ddafc7cb3b6197d7197e19580ae19e464cf020111bdcadef114942"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_143.png",
+      "bytes": 179900,
+      "sha256": "96cd2150818369461d25f0afb4ac96aadc881da23af8f0ab9ff45e3fa0902273"
+    },
+    {
+      "path": "evaluation/tsdd_instrumentation_case/source_page_144.png",
+      "bytes": 187604,
+      "sha256": "2b85c34b2cb737f5ac63f179668f71dc51133168bf8340010742798f523a0461"
+    },
+    {
+      "path": "runtime/PROVENANCE.json",
+      "bytes": 615,
+      "sha256": "f6bc25a79a732b244aa78a9a45642d4dd6784698fa7a553745514b7f60c7516c"
+    },
+    {
+      "path": "runtime/SOURCES.csv",
+      "bytes": 109462,
+      "sha256": "ce67504fb91e0d951cc6fe125e3c38bdc85955533ef56274884f104570e15bc9"
+    },
+    {
+      "path": "runtime/data/corpus/releases/v1/corpus_v1_chunks.csv",
+      "bytes": 229054702,
+      "sha256": "2a5b100da94cfc687913617182f2331848394a35e2c7abae17565183e2d71e49"
+    },
+    {
+      "path": "runtime/data/corpus/releases/v1/corpus_v1_chunks.parquet",
+      "bytes": 68728341,
+      "sha256": "a6bc2ec232c800d35d0b14d3cac1a2fd32cb9fd742348d0f39b708217dae2f29"
+    },
+    {
+      "path": "runtime/data/corpus/releases/v1/corpus_v1_doc_metadata.csv",
+      "bytes": 168719,
+      "sha256": "edaf9ce4d27e1c4a1d325b92f5bc5c8899b472ef6a8bdb9aaa3b0875d56abd6a"
+    },
+    {
+      "path": "runtime/data/index_registry.json",
+      "bytes": 247,
+      "sha256": "4ee648d3646e65b5890a471abe08a4066daf8da54903df4a2223094d81c17f6b"
+    },
+    {
+      "path": "runtime/data/vector_db/v1/1f4c0925-92ca-4ecb-88d7-363528179a19/data_level0.bin",
+      "bytes": 290623488,
+      "sha256": "d3563153489e79809b2cab14772230f90c4324e34740c949c5e72480e7244eb2"
+    },
+    {
+      "path": "runtime/data/vector_db/v1/1f4c0925-92ca-4ecb-88d7-363528179a19/header.bin",
+      "bytes": 100,
+      "sha256": "eaac019997bd430c834a3a3e0994512ba17fb7ca67962c5a9624ca8cfc30fbed"
+    },
+    {
+      "path": "runtime/data/vector_db/v1/1f4c0925-92ca-4ecb-88d7-363528179a19/index_metadata.pickle",
+      "bytes": 6401472,
+      "sha256": "e2ea5cc96670df40312a4cc0ee7b79cb483e50e531691d7ad2bdd73e5d84d014"
+    },
+    {
+      "path": "runtime/data/vector_db/v1/1f4c0925-92ca-4ecb-88d7-363528179a19/length.bin",
+      "bytes": 274432,
+      "sha256": "c18a7f8098eab5f9d6cd4834d7da963d9b36df09d507b2efac4fcf173958d1ac"
+    },
+    {
+      "path": "runtime/data/vector_db/v1/1f4c0925-92ca-4ecb-88d7-363528179a19/link_lists.bin",
+      "bytes": 580908,
+      "sha256": "d5b4955d11c8706e4c155249f7839814c287b679cace4b4db8de6928c2fa7ad9"
+    },
+    {
+      "path": "runtime/data/vector_db/v1/chroma.sqlite3",
+      "bytes": 1123246080,
+      "sha256": "dfa13932a2ea1a3ef135addd33fdc85d92f1e9d962c26646a3e9178917566dcb"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/.no_exist/f169b11e22de13617baa190a028a32f3493550b6/adapter_config.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/.no_exist/f169b11e22de13617baa190a028a32f3493550b6/added_tokens.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/.no_exist/f169b11e22de13617baa190a028a32f3493550b6/chat_template.jinja",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/.no_exist/f169b11e22de13617baa190a028a32f3493550b6/config_sentence_transformers.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/refs/main",
+      "bytes": 40,
+      "sha256": "70c186f8d4e94885c30e6c9497de43bdd9969da7a614d8b89d645ce5d091daca"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/1_Pooling/config.json",
+      "bytes": 201,
+      "sha256": "56c469dba9e31869bb7dfceb9b3d76ac06549d1ba869509d8eb4e8aeb31d62d1"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/README.md",
+      "bytes": 67842,
+      "sha256": "478cc58fb7c5e4412a6c85f3fd0abb2898a1d7c2bc12db10d14892629e14d740"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/config.json",
+      "bytes": 616,
+      "sha256": "2394ce5c9ffac96c88496de5d7a92f5d3fec1015b9d25f9f85545f13dfd7a269"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/model.safetensors",
+      "bytes": 1340616616,
+      "sha256": "d741c1a688a6169af0ecb5a047c44645cd992c31e1bf431269f98bba9ae2911a"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/modules.json",
+      "bytes": 387,
+      "sha256": "c6e29747481e8b5dd2b58401966aeac910de39092f90cda9a704b1545f902b04"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/sentence_bert_config.json",
+      "bytes": 57,
+      "sha256": "948201d8329907aae938fa62f9ceeed53f5694dacc2b87b9f3b78b37ee986529"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/special_tokens_map.json",
+      "bytes": 125,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/tokenizer.json",
+      "bytes": 711396,
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/tokenizer_config.json",
+      "bytes": 314,
+      "sha256": "ae83fa6ca0333117ff12606020af925d648667ef70d92ff7f27d781ba0ca4544"
+    },
+    {
+      "path": "runtime/model-cache/hub/models--intfloat--e5-large-v2/snapshots/f169b11e22de13617baa190a028a32f3493550b6/vocab.txt",
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    {
+      "path": "server/.gitignore",
+      "bytes": 90,
+      "sha256": "4504e7c6a67f5cc510a8903ae295e8fe473e561f6208b59abfd26f1fc16a3f2d"
+    },
+    {
+      "path": "server/README.md",
+      "bytes": 5383,
+      "sha256": "8027b1a6f767ab2e30c99cd291543fb4d6abca41aaf9e7c8971bea1ddff75943"
+    },
+    {
+      "path": "server/SANDBOX_SETUP.md",
+      "bytes": 2536,
+      "sha256": "74e866eb14cd04d336b460b4369439cfa7b8fd44c28715b854985e68502e56ef"
+    },
+    {
+      "path": "server/configure_client.py",
+      "bytes": 859,
+      "sha256": "dff02de380539135cf3016f17a11e05f958bc937ac9c1169a0980bccdb4dd085"
+    },
+    {
+      "path": "server/evaluation/REPORT.md",
+      "bytes": 4476,
+      "sha256": "20192b319eebcd35582842092968aee0c6a7e2cc09e7a5318039688877181848"
+    },
+    {
+      "path": "server/evaluation/cases.json",
+      "bytes": 890,
+      "sha256": "00acbe3dfeea3861abb309ecd5be5bf0cd6e9bebcef02ee777bb90554acdac02"
+    },
+    {
+      "path": "server/evaluation/results.json",
+      "bytes": 60854,
+      "sha256": "1b7904fe2428e65d67d1c1a8cd7bd12174e82f0f74fa9e6e24c257a7a356c789"
+    },
+    {
+      "path": "server/evaluation/run_local.py",
+      "bytes": 5888,
+      "sha256": "26f858c473306166c12a635f2907047105c55bb9d733e6688b7277e1caf6f3f3"
+    },
+    {
+      "path": "server/examples/stdio-config.json",
+      "bytes": 559,
+      "sha256": "d07558b149747271b63401443eba6c787bc02a21f9c8dcfa0c741674ae5e1174"
+    },
+    {
+      "path": "server/mcp_server/__init__.py",
+      "bytes": 74,
+      "sha256": "586291142fa8c6724a7f3fa3049d2777037f3bacf0a20117c4a9075d23f20813"
+    },
+    {
+      "path": "server/mcp_server/catalog.py",
+      "bytes": 11484,
+      "sha256": "70c4d586a8439e1c6efc1b67cb6ffc7c34f5b339dd60777e4d617a3fe543ce87"
+    },
+    {
+      "path": "server/mcp_server/errors.py",
+      "bytes": 938,
+      "sha256": "b406e2e4ab82797d83e8c72cd2e4d29bc73b82cf68c748fe482a09a2da25c6f3"
+    },
+    {
+      "path": "server/mcp_server/evidence.py",
+      "bytes": 8755,
+      "sha256": "17e376987aea78a55c02b74ac6a8895f49b83696931d2d4ab161846becfa61f1"
+    },
+    {
+      "path": "server/mcp_server/launch.py",
+      "bytes": 1156,
+      "sha256": "b2ee9c23541e6f6c954f158a7f7a18fb05a4baac474de0919e1b26320190aee4"
+    },
+    {
+      "path": "server/mcp_server/models.py",
+      "bytes": 4010,
+      "sha256": "2c96db51797505d3a6afa6347a1a1c59ea43ab714aeb90554ac76c3508f31954"
+    },
+    {
+      "path": "server/mcp_server/retrieval/__init__.py",
+      "bytes": 56,
+      "sha256": "414e70e118c62a52e9b8e72a92c0be13f70fbf0433fde0c760ca3dbc931b23ac"
+    },
+    {
+      "path": "server/mcp_server/retrieval/cache.py",
+      "bytes": 1061,
+      "sha256": "07ae8988cf6a2e3e6639c78936e0d65689132142a3c6b6b7b5982fed0ee5170b"
+    },
+    {
+      "path": "server/mcp_server/retrieval/embeddings.py",
+      "bytes": 1886,
+      "sha256": "a4081af52eae6c52152fe542737e7af2f63f49b1c034dcffc6f1e225b22d23b7"
+    },
+    {
+      "path": "server/mcp_server/retrieval/engine.py",
+      "bytes": 15498,
+      "sha256": "9882bc790aec4ee44945fdf14d65a035af7f66e63533b6ea4f1f4d144ce5149e"
+    },
+    {
+      "path": "server/mcp_server/retrieval/scope.py",
+      "bytes": 324,
+      "sha256": "9fa80dff3e532e4080866a00dbc09e5cef387222792e8a94571f488646d77206"
+    },
+    {
+      "path": "server/mcp_server/runtime.py",
+      "bytes": 1572,
+      "sha256": "37ab49ac9123ae72f5b90eb836d6187a79eb8793c921cccf41e8d8ffc22d053b"
+    },
+    {
+      "path": "server/mcp_server/server.py",
+      "bytes": 2659,
+      "sha256": "1c2c016f1d67d1311bacc5460d705564fe45733af242dca147403aaba2444be1"
+    },
+    {
+      "path": "server/mcp_server/services.py",
+      "bytes": 8210,
+      "sha256": "410706c558db754b8c362ca00aabb9bf449f1f144ba11d0c340cd754e30220be"
+    },
+    {
+      "path": "server/mcp_server/tools.py",
+      "bytes": 8527,
+      "sha256": "a6da8479beaaf6f29b613d65aea8a2f9523d2754c53eb8ed15d18e226ff2366f"
+    },
+    {
+      "path": "server/requirements.in",
+      "bytes": 368,
+      "sha256": "e4a00ab2a3d25152f32a24dcc9535a1d68a248eaaf239a34055ac71693fd3364"
+    },
+    {
+      "path": "server/requirements.txt",
+      "bytes": 11379,
+      "sha256": "34b1a6ece03682313288a5844700514c112850291d18abe80f5513f8bfc25db6"
+    },
+    {
+      "path": "server/setup.ps1",
+      "bytes": 1880,
+      "sha256": "41382a0cd5eb7fb129edea82d9f2dd863daeb679b3ab55b41489fb82fa21ac5a"
+    },
+    {
+      "path": "server/skills/pavement-research/SKILL.md",
+      "bytes": 3935,
+      "sha256": "e6da62c3cc6ce779c77b88a88539a7d3b641b556502d427b8cd5593db608d147"
+    },
+    {
+      "path": "server/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "server/tests/test_mcp_evidence.py",
+      "bytes": 13661,
+      "sha256": "6153ef8c1b4bcfb9bb1ff0d7de1dc89b61fb9189dc1ea8212e20af5b748623bf"
+    },
+    {
+      "path": "server/tests/test_mcp_foundation.py",
+      "bytes": 7954,
+      "sha256": "0f1f81e142a7dc9ecf0f6dc831e91f3e430ba16f9f306bf31c740d3ce97a3116"
+    },
+    {
+      "path": "server/tests/test_mcp_tools.py",
+      "bytes": 14454,
+      "sha256": "572bfa7ef96cb13318cb47fcc324fe6cd2d505fde13873dc1134b0925cfc6d84"
+    },
+    {
+      "path": "third_party/E5-MIT-LICENSE.txt",
+      "bytes": 1102,
+      "sha256": "9d12f23d8ee8439187044cefdf580fb96f72e096e12337450e233e3f014aac31"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 1114,
+      "sha256": "e299882e42077b1deb70054dbc8614f3b3f7e456fea4dfbbe324eecd7583af30"
+    },
+    {
+      "path": "wheelhouse/aiohappyeyeballs-2.7.1-py3-none-any.whl",
+      "bytes": 15038,
+      "sha256": "9243213661e29250eb41368e5daa826fc017156c3b8a11440826b2e3ed376472"
+    },
+    {
+      "path": "wheelhouse/aiohttp-3.14.5-cp311-cp311-win_amd64.whl",
+      "bytes": 512575,
+      "sha256": "6f275c11d1aa6d4c458e05a68be084efe3c55a113d99e3f46a318098e52948fc"
+    },
+    {
+      "path": "wheelhouse/aiosignal-1.4.0-py3-none-any.whl",
+      "bytes": 7490,
+      "sha256": "053243f8b92b990551949e63930a839ff0cf0b0ebbe0597b0f3fb19e1a0fe82e"
+    },
+    {
+      "path": "wheelhouse/annotated_doc-0.0.5-py3-none-any.whl",
+      "bytes": 5302,
+      "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101"
+    },
+    {
+      "path": "wheelhouse/annotated_types-0.8.0-py3-none-any.whl",
+      "bytes": 13427,
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0"
+    },
+    {
+      "path": "wheelhouse/anyio-4.12.1-py3-none-any.whl",
+      "bytes": 113592,
+      "sha256": "d405828884fc140aa80a3c667b8beed277f1dfedec42ba031bd6ac3db606ab6c"
+    },
+    {
+      "path": "wheelhouse/attrs-26.1.0-py3-none-any.whl",
+      "bytes": 67548,
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309"
+    },
+    {
+      "path": "wheelhouse/backoff-2.2.1-py3-none-any.whl",
+      "bytes": 15148,
+      "sha256": "63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8"
+    },
+    {
+      "path": "wheelhouse/bcrypt-5.0.0-cp39-abi3-win_amd64.whl",
+      "bytes": 150912,
+      "sha256": "64ee8434b0da054d830fa8e89e1c8bf30061d539044a39524ff7dec90481e5c2"
+    },
+    {
+      "path": "wheelhouse/build-1.6.1-py3-none-any.whl",
+      "bytes": 31179,
+      "sha256": "ecd351a4be9d35a9eaaba244a7687143c9c7d4aea6ac964e7e7ddab20cbcf4e7"
+    },
+    {
+      "path": "wheelhouse/certifi-2026.10.19-py3-none-any.whl",
+      "bytes": 136464,
+      "sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b"
+    },
+    {
+      "path": "wheelhouse/cffi-2.1.1-cp311-cp311-win_amd64.whl",
+      "bytes": 185096,
+      "sha256": "42f6930c31dc7f50732c9ae793c2786c7b6b044195967bbdde40bb9be81c4cc0"
+    },
+    {
+      "path": "wheelhouse/charset_normalizer-3.5.2-cp311-cp311-win_amd64.whl",
+      "bytes": 214932,
+      "sha256": "87e50a3e7cb90af586b6c5faf23e302a970415ac73bd7bd90a515a04b427ef96"
+    },
+    {
+      "path": "wheelhouse/chromadb-1.5.1-cp39-abi3-win_amd64.whl",
+      "bytes": 21856118,
+      "sha256": "7ec9dc47841cf3fecc475ca07a0aacfc9a347b3460881051636755618d6250c6"
+    },
+    {
+      "path": "wheelhouse/click-8.5.0-py3-none-any.whl",
+      "bytes": 125251,
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360"
+    },
+    {
+      "path": "wheelhouse/cloudpickle-3.1.2-py3-none-any.whl",
+      "bytes": 22228,
+      "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a"
+    },
+    {
+      "path": "wheelhouse/colorama-0.4.6-py2.py3-none-any.whl",
+      "bytes": 25335,
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+    },
+    {
+      "path": "wheelhouse/cryptography-50.0.2-cp311-abi3-win_amd64.whl",
+      "bytes": 3824692,
+      "sha256": "7afa5a6602a9f29af1f3a2965f831bae7c9d5d597b7cbb716d41ab3b7d89879c"
+    },
+    {
+      "path": "wheelhouse/distro-1.9.0-py3-none-any.whl",
+      "bytes": 20277,
+      "sha256": "7bffd925d65168f85027d8da9af6bddab658135b840670a223589bc0c8ef02b2"
+    },
+    {
+      "path": "wheelhouse/durationpy-0.11-py3-none-any.whl",
+      "bytes": 4133,
+      "sha256": "a739fe2b8972c250ff72f8e2c488d18cf25f7b852f49ee76048775d5171df30c"
+    },
+    {
+      "path": "wheelhouse/filelock-4.2.4-py3-none-any.whl",
+      "bytes": 162475,
+      "sha256": "301241438c57936ef93f4243a94f2559022268bfcf9b375a9a72eb0f8db8358e"
+    },
+    {
+      "path": "wheelhouse/flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "bytes": 26661,
+      "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
+    },
+    {
+      "path": "wheelhouse/frozenlist-1.8.0-cp311-cp311-win_amd64.whl",
+      "bytes": 44064,
+      "sha256": "ac913f8403b36a2c8610bbfd25b8013488533e71e62b4b4adce9c86c8cea905b"
+    },
+    {
+      "path": "wheelhouse/fsspec-2026.9.0-py3-none-any.whl",
+      "bytes": 221738,
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f"
+    },
+    {
+      "path": "wheelhouse/googleapis_common_protos-1.75.5-py3-none-any.whl",
+      "bytes": 307737,
+      "sha256": "d7285525c23039db98f2463e6d5a4f9b958b94d497f03a844ece3259c4e72d5d"
+    },
+    {
+      "path": "wheelhouse/grpcio-1.84.0-cp311-cp311-win_amd64.whl",
+      "bytes": 5259900,
+      "sha256": "f9a456bdbed52a01c9ab8423bdebab04a5363c78676edc55ab9b58bd13bdf9e1"
+    },
+    {
+      "path": "wheelhouse/h11-0.16.0-py3-none-any.whl",
+      "bytes": 37515,
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+    },
+    {
+      "path": "wheelhouse/hf_xet-1.7.0-cp38-abi3-win_amd64.whl",
+      "bytes": 3822644,
+      "sha256": "2b7bb5727889b0f2436dbaaad8fc4c3e66b8240d992716989e0c086b4278b1bc"
+    },
+    {
+      "path": "wheelhouse/httpcore-1.0.9-py3-none-any.whl",
+      "bytes": 78784,
+      "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55"
+    },
+    {
+      "path": "wheelhouse/httpcore2-2.16.0-py3-none-any.whl",
+      "bytes": 85070,
+      "sha256": "5c4358319f2602d984ad93182c9fee5160f22e9da7babdda870a5e7c4e2dc34f"
+    },
+    {
+      "path": "wheelhouse/httptools-0.9.0-cp311-cp311-win_amd64.whl",
+      "bytes": 92421,
+      "sha256": "c4fa57d3c31889722f64bfa785545a5e603a893b6f29ac1a41bfa830abeaefd5"
+    },
+    {
+      "path": "wheelhouse/httpx-0.28.1-py3-none-any.whl",
+      "bytes": 73517,
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
+    },
+    {
+      "path": "wheelhouse/httpx2-2.16.0-py3-none-any.whl",
+      "bytes": 97880,
+      "sha256": "fd2c5d7909e8d86fe92d53020c310ca0e4e431b838c207c5754b9bbf0308d49a"
+    },
+    {
+      "path": "wheelhouse/huggingface_hub-1.5.0-py3-none-any.whl",
+      "bytes": 596261,
+      "sha256": "c9c0b3ab95a777fc91666111f3b3ede71c0cdced3614c553a64e98920585c4ee"
+    },
+    {
+      "path": "wheelhouse/idna-3.20-py3-none-any.whl",
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    {
+      "path": "wheelhouse/importlib_resources-7.1.0-py3-none-any.whl",
+      "bytes": 37232,
+      "sha256": "1bd7b48b4088eddb2cd16382150bb515af0bd2c70128194392725f82ad2c96a1"
+    },
+    {
+      "path": "wheelhouse/jinja2-3.1.6-py3-none-any.whl",
+      "bytes": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+    },
+    {
+      "path": "wheelhouse/joblib-1.6.0-py3-none-any.whl",
+      "bytes": 306115,
+      "sha256": "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba"
+    },
+    {
+      "path": "wheelhouse/jsonschema-4.26.0-py3-none-any.whl",
+      "bytes": 90630,
+      "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce"
+    },
+    {
+      "path": "wheelhouse/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "bytes": 18437,
+      "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe"
+    },
+    {
+      "path": "wheelhouse/kubernetes-36.0.3-py2.py3-none-any.whl",
+      "bytes": 4618066,
+      "sha256": "8fde9241c4b298e6374a069dcf728359b4e72c2fb29489a975ba4e1c047cf10f"
+    },
+    {
+      "path": "wheelhouse/markdown_it_py-4.2.0-py3-none-any.whl",
+      "bytes": 91687,
+      "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a"
+    },
+    {
+      "path": "wheelhouse/markupsafe-3.0.4-cp311-cp311-win_amd64.whl",
+      "bytes": 14328,
+      "sha256": "fdb4ca07ab75ffadab4a8b135ad59cdbb3156b99310f3d565370da74a15d6bd3"
+    },
+    {
+      "path": "wheelhouse/mcp-2.2.0-py3-none-any.whl",
+      "bytes": 365656,
+      "sha256": "bde982589473a060ae145e3406e9a5333fe538c97229ba841f5a7f92be004f81"
+    },
+    {
+      "path": "wheelhouse/mcp_types-2.2.0-py3-none-any.whl",
+      "bytes": 69106,
+      "sha256": "ea476b73ee86709ab5abc9452385ed36cc05907e582355622e294595c9a04f13"
+    },
+    {
+      "path": "wheelhouse/mdurl-0.1.2-py3-none-any.whl",
+      "bytes": 9979,
+      "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+    },
+    {
+      "path": "wheelhouse/mmh3-5.3.1-cp311-cp311-win_amd64.whl",
+      "bytes": 41702,
+      "sha256": "dbb93d9ce4ce756952329aa4c583c54140f95dabe226f2b6937b17cb1ab4d817"
+    },
+    {
+      "path": "wheelhouse/mpmath-1.3.0-py3-none-any.whl",
+      "bytes": 536198,
+      "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c"
+    },
+    {
+      "path": "wheelhouse/multidict-7.1.0-cp311-cp311-win_amd64.whl",
+      "bytes": 93586,
+      "sha256": "396ba9917fe489ec3a5942ae3e29e91324c8b9956f371f7e124c971c71379e7a"
+    },
+    {
+      "path": "wheelhouse/narwhals-2.27.1-py3-none-any.whl",
+      "bytes": 483211,
+      "sha256": "d057df13f5852b8e157596e82eb5e955fad267425df5e420e0ee9863da483b31"
+    },
+    {
+      "path": "wheelhouse/networkx-3.6.1-py3-none-any.whl",
+      "bytes": 2068504,
+      "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762"
+    },
+    {
+      "path": "wheelhouse/numpy-2.4.6-cp311-cp311-win_amd64.whl",
+      "bytes": 12608406,
+      "sha256": "1e254a00cdf42b1e4d5b3d68d33af63268d41340d8885df2ab6470f2e1500147"
+    },
+    {
+      "path": "wheelhouse/oauthlib-4.0.0-py3-none-any.whl",
+      "bytes": 159715,
+      "sha256": "624c28c13a0a59cabf9747dfa52af63be3e512a7f2714df16e91b5b3a145e6cd"
+    },
+    {
+      "path": "wheelhouse/onnxruntime-1.31.0-cp311-cp311-win_amd64.whl",
+      "bytes": 14885750,
+      "sha256": "317608967b03807ed4661113b08293fac02a1db6496a6863a07d9f19232936ad"
+    },
+    {
+      "path": "wheelhouse/opentelemetry_api-1.45.1-py3-none-any.whl",
+      "bytes": 60256,
+      "sha256": "b31553efa588ae44bc306f863c785c5333a9ecc091248c6ee68b4b6c87fdedfb"
+    },
+    {
+      "path": "wheelhouse/opentelemetry_exporter_otlp_common-0.66b1-py3-none-any.whl",
+      "bytes": 12385,
+      "sha256": "00ff8592c3a7cb729ff3fdc7ffa12372c243bdf2163e80c180994d0c7bd83ee9"
+    },
+    {
+      "path": "wheelhouse/opentelemetry_exporter_otlp_proto_common-1.45.1-py3-none-any.whl",
+      "bytes": 15393,
+      "sha256": "2f446183ae7047b036226f1d846c41a834b0e8755ad13b51a51dd38952eb466c"
+    },
+    {
+      "path": "wheelhouse/opentelemetry_exporter_otlp_proto_grpc-1.45.1-py3-none-any.whl",
+      "bytes": 19492,
+      "sha256": "e42ecb789d2fc5d8145e3dadc3e2991c9f18cd166d7c7514e234702540274b76"
+    },
+    {
+      "path": "wheelhouse/opentelemetry_proto-1.45.1-py3-none-any.whl",
+      "bytes": 72488,
+      "sha256": "f38e2a8413053c180cd3d2637fbb279673ec2f6a6e09c995aafa2f452c52b46e"
+    },
+    {
+      "path": "wheelhouse/opentelemetry_sdk-1.45.1-py3-none-any.whl",
+      "bytes": 140063,
+      "sha256": "c604c11dc429810812348989115fa44bd558772a3d7442afc43d024f2c250ca4"
+    },
+    {
+      "path": "wheelhouse/opentelemetry_semantic_conventions-0.66b1-py3-none-any.whl",
+      "bytes": 206279,
+      "sha256": "d4cddeb4315490b35213f55e2bdc9ac54bb1e4d318927475bed62b35545e581b"
+    },
+    {
+      "path": "wheelhouse/orjson-3.13.0-cp311-cp311-win_amd64.whl",
+      "bytes": 121287,
+      "sha256": "a0377d6962fa431c93ecd78fdea771bb62ec545b24ee0c5d4e32acf2260af259"
+    },
+    {
+      "path": "wheelhouse/overrides-7.7.0-py3-none-any.whl",
+      "bytes": 17832,
+      "sha256": "c7ed9d062f78b8e4c1a7b70bd8796b35ead4d9f510227ef9c5dc7626c60d7e49"
+    },
+    {
+      "path": "wheelhouse/packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "path": "wheelhouse/posthog-5.4.0-py3-none-any.whl",
+      "bytes": 105364,
+      "sha256": "284dfa302f64353484420b52d4ad81ff5c2c2d1d607c4e2db602ac72761831bd"
+    },
+    {
+      "path": "wheelhouse/propcache-0.5.4-cp311-cp311-win_amd64.whl",
+      "bytes": 46268,
+      "sha256": "e904d4d01f36bd6e197590be1533c44e06058771e0746dd073a8ebb3ef880858"
+    },
+    {
+      "path": "wheelhouse/protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+      "bytes": 456514,
+      "sha256": "a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353"
+    },
+    {
+      "path": "wheelhouse/pyarrow-23.0.1-cp311-cp311-win_amd64.whl",
+      "bytes": 27527698,
+      "sha256": "f00f993a8179e0e1c9713bcc0baf6d6c01326a406a9c23495ec1ba9c9ebf2919"
+    },
+    {
+      "path": "wheelhouse/pybase64-1.5.1-cp311-cp311-win_amd64.whl",
+      "bytes": 44480,
+      "sha256": "8e3f2b00a9865bf152985067ac872da9647e8d8333d35ca3946fc33ece75eb36"
+    },
+    {
+      "path": "wheelhouse/pycparser-3.11-py3-none-any.whl",
+      "bytes": 51178,
+      "sha256": "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80"
+    },
+    {
+      "path": "wheelhouse/pydantic-2.12.5-py3-none-any.whl",
+      "bytes": 463580,
+      "sha256": "e561593fccf61e8a20fc46dfc2dfe075b8be7d0188df33f221ad1f0139180f9d"
+    },
+    {
+      "path": "wheelhouse/pydantic_core-2.41.5-cp311-cp311-win_amd64.whl",
+      "bytes": 2011305,
+      "sha256": "76ee27c6e9c7f16f47db7a94157112a2f3a00e958bc626e2f4ee8bec5c328fbe"
+    },
+    {
+      "path": "wheelhouse/pygments-2.21.0-py3-none-any.whl",
+      "bytes": 1250147,
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+    },
+    {
+      "path": "wheelhouse/pyjwt-2.15.1-py3-none-any.whl",
+      "bytes": 33860,
+      "sha256": "42d59d631f7768a1028a64c7ff581a9bf7519804daf91fc5b6c56e30eec5e193"
+    },
+    {
+      "path": "wheelhouse/pypika-0.51.1-py2.py3-none-any.whl",
+      "bytes": 60585,
+      "sha256": "77985b4d7ce71b9905255bf12468cf598349e98837c037541cfc240e528aec46"
+    },
+    {
+      "path": "wheelhouse/pyproject_hooks-1.3.3-py3-none-any.whl",
+      "bytes": 10724,
+      "sha256": "5fc53fdac9f7bd63fbcdc868fb5f90b4784d78a53a3d3388cd738b807441a20b"
+    },
+    {
+      "path": "wheelhouse/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "bytes": 229892,
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+    },
+    {
+      "path": "wheelhouse/python_dotenv-1.2.4-py3-none-any.whl",
+      "bytes": 23266,
+      "sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc"
+    },
+    {
+      "path": "wheelhouse/python_multipart-0.0.32-py3-none-any.whl",
+      "bytes": 30042,
+      "sha256": "ff6d3f776f16878c894e52e107296ffc890e913c611b1a4ec6c44e2821fe2e23"
+    },
+    {
+      "path": "wheelhouse/pywin32-312-cp311-cp311-win_amd64.whl",
+      "bytes": 6928825,
+      "sha256": "d11417d84412f859b722fad0841b3614459ed0047f7542d8362e77884f6b6e8a"
+    },
+    {
+      "path": "wheelhouse/pyyaml-6.0.3-cp311-cp311-win_amd64.whl",
+      "bytes": 158763,
+      "sha256": "9f3bfb4965eb874431221a3ff3fdcddc7e74e3b07799e0e84ca4a0f867d449bf"
+    },
+    {
+      "path": "wheelhouse/referencing-0.37.0-py3-none-any.whl",
+      "bytes": 26766,
+      "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231"
+    },
+    {
+      "path": "wheelhouse/regex-2026.9.29-cp311-cp311-win_amd64.whl",
+      "bytes": 280641,
+      "sha256": "1043aedf5917caa861bcb25a9c11460049656bdf0017a90a309fa8f255467725"
+    },
+    {
+      "path": "wheelhouse/requests-2.34.2-py3-none-any.whl",
+      "bytes": 73075,
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+    },
+    {
+      "path": "wheelhouse/requests_oauthlib-2.0.0-py2.py3-none-any.whl",
+      "bytes": 24179,
+      "sha256": "7dd8a5c40426b779b0868c404bdef9768deccf22749cde15852df527e6269b36"
+    },
+    {
+      "path": "wheelhouse/rich-15.0.0-py3-none-any.whl",
+      "bytes": 310654,
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb"
+    },
+    {
+      "path": "wheelhouse/rpds_py-2026.9.1-cp311-cp311-win_amd64.whl",
+      "bytes": 226045,
+      "sha256": "ce4d4f52e2a4324396caddbd45a97d8d7be5f42edd25d2355282a9c34f9b2f7f"
+    },
+    {
+      "path": "wheelhouse/safetensors-0.8.0-cp310-abi3-win_amd64.whl",
+      "bytes": 355540,
+      "sha256": "096ec1a98435df7beb08853bb5aa9081a84f23d0adc67ed1a0a10550f608373f"
+    },
+    {
+      "path": "wheelhouse/scikit_learn-1.9.1-cp311-cp311-win_amd64.whl",
+      "bytes": 8329877,
+      "sha256": "220fa18152852a5ce29c49e1eaba9d44ec44631cd2e5cf65f5a40eafa5ab3412"
+    },
+    {
+      "path": "wheelhouse/scipy-1.17.1-cp311-cp311-win_amd64.whl",
+      "bytes": 36607512,
+      "sha256": "d30e57c72013c2a4fe441c2fcb8e77b14e152ad48b5464858e07e2ad9fbfceff"
+    },
+    {
+      "path": "wheelhouse/sentence_transformers-5.2.3-py3-none-any.whl",
+      "bytes": 494225,
+      "sha256": "6437c62d4112b615ddebda362dfc16a4308d604c5b68125ed586e3e95d5b2e30"
+    },
+    {
+      "path": "wheelhouse/shellingham-1.5.4-py2.py3-none-any.whl",
+      "bytes": 9755,
+      "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686"
+    },
+    {
+      "path": "wheelhouse/six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "path": "wheelhouse/sse_starlette-3.5.0-py3-none-any.whl",
+      "bytes": 17407,
+      "sha256": "3e6e1070df3f0f5d9cea81496de92dbb72f6721871d99748ece67441dd8b7997"
+    },
+    {
+      "path": "wheelhouse/starlette-1.9.0-py3-none-any.whl",
+      "bytes": 80335,
+      "sha256": "fd3f159936e882d06c1108f84688f7cda2cf85fc6a592a50edbd175e882c2ddc"
+    },
+    {
+      "path": "wheelhouse/sympy-1.14.0-py3-none-any.whl",
+      "bytes": 6299353,
+      "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5"
+    },
+    {
+      "path": "wheelhouse/tenacity-9.2.1-py3-none-any.whl",
+      "bytes": 32310,
+      "sha256": "9e56f17539296baab7beabb08b92f6ee3d7be92d8be72d763360677c2ad6580e"
+    },
+    {
+      "path": "wheelhouse/threadpoolctl-3.7.0-py3-none-any.whl",
+      "bytes": 26362,
+      "sha256": "cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be"
+    },
+    {
+      "path": "wheelhouse/tokenizers-0.22.2-cp39-abi3-win_amd64.whl",
+      "bytes": 2747786,
+      "sha256": "c9ea31edff2968b44a88f97d784c2f16dc0729b8b143ed004699ebca91f05c48"
+    },
+    {
+      "path": "wheelhouse/torch-2.10.0-cp311-cp311-win_amd64.whl",
+      "bytes": 113723116,
+      "sha256": "29b7009dba4b7a1c960260fc8ac85022c784250af43af9fb0ebafc9883782ebd"
+    },
+    {
+      "path": "wheelhouse/tqdm-4.70.1-py3-none-any.whl",
+      "bytes": 80199,
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73"
+    },
+    {
+      "path": "wheelhouse/transformers-5.2.0-py3-none-any.whl",
+      "bytes": 10403304,
+      "sha256": "9ecaf243dc45bee11a7d93f8caf03746accc0cb069181bbf4ad8566c53e854b4"
+    },
+    {
+      "path": "wheelhouse/truststore-0.10.5-py3-none-any.whl",
+      "bytes": 19017,
+      "sha256": "9aaaedaefaf06d8b206278cf8b5012bc897f485a874503501e12d776df78951c"
+    },
+    {
+      "path": "wheelhouse/typer-0.27.3-py3-none-any.whl",
+      "bytes": 123312,
+      "sha256": "e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff"
+    },
+    {
+      "path": "wheelhouse/typer_slim-0.24.0-py3-none-any.whl",
+      "bytes": 3394,
+      "sha256": "d5d7ee1ee2834d5020c7c616ed5e0d0f29b9a4b1dd283bdebae198ec09778d0e"
+    },
+    {
+      "path": "wheelhouse/typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    {
+      "path": "wheelhouse/typing_inspection-0.4.4-py3-none-any.whl",
+      "bytes": 14750,
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+    },
+    {
+      "path": "wheelhouse/urllib3-2.8.0-py3-none-any.whl",
+      "bytes": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+    },
+    {
+      "path": "wheelhouse/uvicorn-0.54.0-py3-none-any.whl",
+      "bytes": 87427,
+      "sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf"
+    },
+    {
+      "path": "wheelhouse/watchfiles-1.3.0-cp310-abi3-win_amd64.whl",
+      "bytes": 290643,
+      "sha256": "1acabde19b67e673274e89a04d613b7fb1f122e2c4b8ec9a581e59c149264b61"
+    },
+    {
+      "path": "wheelhouse/websocket_client-1.9.2-py3-none-any.whl",
+      "bytes": 95786,
+      "sha256": "e1a673830a9c7bfa47b1cd3d5e4178f4c9651d80a4eab02c9c23a1c3ec6250ce"
+    },
+    {
+      "path": "wheelhouse/websockets-17.3-cp311-cp311-win_amd64.whl",
+      "bytes": 219017,
+      "sha256": "d338813a440bf6d2f0df55140d3f3080284410b1ebfe9df50e3847bcdb1a17bb"
+    },
+    {
+      "path": "wheelhouse/yarl-1.25.1-cp311-cp311-win_amd64.whl",
+      "bytes": 102894,
+      "sha256": "d7306dee25b8a0e737363f347362b875094b4dc4e367311470656ae420fdbf8e"
+    }
+  ]
+}

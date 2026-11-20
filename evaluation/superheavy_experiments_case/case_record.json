@@ -1,0 +1,86 @@
+{
+  "case_id": "superheavy_experiments",
+  "title": "FHWA-HRT-18-050 shoulder and buried-utility experiments",
+  "report_id": "FHWA_HRT_18_050",
+  "assessment_date": "2026-11-10",
+  "owner": "Pavement Knowledge MCP team",
+  "status": "reviewed_and_approved",
+  "response_provenance": "Original submitted model outputs preserved unchanged.",
+  "model": {
+    "reported_label": "gpt 5.6 sole",
+    "reasoning": "high",
+    "same_model_both_conditions": "reported",
+    "verified_model_id": null
+  },
+  "conditions": {
+    "labels": [
+      "Without pavement MCP",
+      "With pavement MCP"
+    ],
+    "baseline_other_tools": "Baseline states it searched conversation/library research documents.",
+    "other_tool_parity": "not independently documented",
+    "exact_prompt_text": "Original submitted string unavailable. Task summary: compare sloped-shoulder and buried-utility configurations, loading, measurements and source locations in FHWA-HRT-18-050; discuss applicability to research for a 3-million-pound transformer move and a follow-up validation task.",
+    "fresh_context": "not separately documented for this pair",
+    "web_policy": "Proposed prompt forbids web access; original run logs not supplied",
+    "skill_state": null
+  },
+  "files": {
+    "without_mcp": "answer_without_mcp.txt",
+    "with_mcp": "answer_with_mcp.txt",
+    "review": "comparison_review.md"
+  },
+  "assessment": {
+    "status": "project_team_SME_approved",
+    "scale": "0 deficient/not demonstrated, 1 partly meets, 2 meets this limited task",
+    "scores": [
+      {
+        "criterion": "technical correctness and fidelity",
+        "without_mcp": 2,
+        "with_mcp": 2
+      },
+      {
+        "criterion": "completeness",
+        "without_mcp": 1,
+        "with_mcp": 2
+      },
+      {
+        "criterion": "claim-level source support",
+        "without_mcp": 0,
+        "with_mcp": 2
+      },
+      {
+        "criterion": "scope and uncertainty",
+        "without_mcp": 2,
+        "with_mcp": 2
+      }
+    ],
+    "optional_totals": {
+      "without_mcp": 5,
+      "with_mcp": 8,
+      "maximum": 8
+    },
+    "limit": "Task-specific rubric assessment; not an accuracy percentage, independent external validation or general performance estimate.",
+    "preparation": "AI-assisted"
+  },
+  "sme_review": {
+    "status": "approved",
+    "reviewer_role": "project-team pavement subject-matter expert",
+    "date": "2026-11-12",
+    "scope": "paired answers and documented assessment",
+    "review_type": "project-team review of AI-assisted assessment; not independent external validation"
+  },
+  "source_audit": {
+    "date": "2026-11-10",
+    "key_claims": "checked against original PDF",
+    "tables_visually_checked": [
+      13,
+      15
+    ],
+    "run_trace": "Post-response checks, not original retrieval logs.",
+    "source_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf"
+  },
+  "hashes": {
+    "without_mcp": "C72228EE2F649461F82AEBA344D026E37E6FB73276AED5D927684084FEB030FF",
+    "with_mcp": "91072E1ABE9A621600CAB4C56265FF99F6C3322D5796BD8D196D8126FCFA5042"
+  }
+}

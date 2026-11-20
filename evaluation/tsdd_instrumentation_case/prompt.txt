@@ -1,0 +1,7 @@
+We are planning an instrumented pavement experiment to verify traffic-speed deflection device (TSDD) measurements.
+
+Using FHWA-HRT-15-074, explain how the study installed pavement sensors and aligned their measurements with the moving TSDDs. Describe the sensor types and layout, measured signals, how vehicle position was identified, and how the data were aligned in time or distance. Identify reported limitations.
+
+What should we carry over or change for our experiment? Distinguish the report’s documented procedures from your recommendations. Cite supporting pages, figures or tables, and state anything you cannot verify.
+
+Do not use web search or access external websites. Use research-document tools if available. Limit the answer to 500 words.

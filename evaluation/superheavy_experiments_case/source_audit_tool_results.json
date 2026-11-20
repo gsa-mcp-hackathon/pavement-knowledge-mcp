@@ -1,0 +1,141 @@
+{
+  "review_date": "2026-11-10",
+  "purpose": "Post-response source verification; not an original answer-generation trace.",
+  "source_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+  "retrieval_evidence": {
+    "mode": "query",
+    "scope": "publication",
+    "query": "experiment 4 sloped shoulder experiment 5 buried utilities 77 25 pulses loading protocol 0.4 failure",
+    "doc_id": "FHWA_HRT_18_050",
+    "corpus_version": "v1",
+    "passages": [
+      {
+        "rank": 1,
+        "chunk_id": "FHWA_HRT_18_050__p0085-p0089__c066",
+        "doc_id": "FHWA_HRT_18_050",
+        "doc_title": "Analysis Procedures for Evaluating Superheavy Load Movement on Flexible Pavements, Volume II: Appendix A, Experimental Program",
+        "report_no": "FHWA-HRT-18-050",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+        "section_header": "2.8. LOADING PROTOCOL AND INSTRUMENTATION PLANS",
+        "page_start": 85,
+        "page_end": 89,
+        "text": "loading rate of 0.4 inch/min. The static load was applied on the loading plate positioned directly at the top of the AC layer and at the centerline of each of the buried utilities.\n\nTable 15. Loading protocol for experiment No. 5 (full pavement with buried utilities). Load Type Target Load Amplitude (lb) Loading Cycles or Loading Rate Load Plate Diameter (Inch) Rest Period Between Load Levels (min) Dynamic load (0.1-s loading plus 0.9-s rest period) 9,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 12,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 16,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 21,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 27,000 25 cycles 11.9 (FWD loading plate) 2 Static load Up to failure 0.4 inch/min 11.9 (steel plate) Constant loading rate The instrumentation for the pavement structure consisted of 13 4-inch TEPCs placed at 4 locations: in the middle of the CAB, 6 and 20 inches below the SG surface to measure vertical pressure, and on the inner sides of the utilities to measure horizontal pressure.",
+        "text_truncated": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "FHWA_HRT_18_050__p0043-p0050__c038",
+        "doc_id": "FHWA_HRT_18_050",
+        "doc_title": "Analysis Procedures for Evaluating Superheavy Load Movement on Flexible Pavements, Volume II: Appendix A, Experimental Program",
+        "report_no": "FHWA-HRT-18-050",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+        "section_header": "2.8. LOADING PROTOCOL AND INSTRUMENTATION PLANS",
+        "page_start": 43,
+        "page_end": 50,
+        "text": "he strain in the buried steel pipe. Experiment No. 1 (SG Layer Only) In experiment No. 1, the loads were applied on top of the SG layer directly; no AC or base layers were present.\n\nThe thickness of the SG was 66 inches. Two types of loadings were applied: dynamic and static. The testing was initially dynamic with increasing amplitudes, up to a maximum applied dynamic load (P(Max)Dyn) that was about 10 percent of the anticipated bearing capacity load level. The intention was to apply the loads that would not impart failure and development of failure (or slip) planes in the SG. The structure was subjected to a series of five loading levels with sequentially higher load amplitudes until the P(Max)Dyn load level was reached. The pavement structure was subjected to multiple dynamic load pulses at each of the selected load level increments, simulating repeated loading and allowing for the resilient-type behavior of the SG. Each load pulse consisted of a pulse duration of 0.1 s followed by a rest period of 0.9 s. At the end of the dynamic load testing, the pavement structure was allowed to recover for 30 min. An increasing static load was then applied up to failure with a constant vertical settlement rate of 0.4 inch/min.",
+        "text_truncated": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "FHWA_HRT_18_050__p0085-p0089__c064",
+        "doc_id": "FHWA_HRT_18_050",
+        "doc_title": "Analysis Procedures for Evaluating Superheavy Load Movement on Flexible Pavements, Volume II: Appendix A, Experimental Program",
+        "report_no": "FHWA-HRT-18-050",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+        "section_header": "2.8. LOADING PROTOCOL AND INSTRUMENTATION PLANS",
+        "page_start": 85,
+        "page_end": 89,
+        "text": "Figure 72 shows a schematic of the test setup and points of surface load application. The experiment was divided into two phases. In the first phase, the surface load was applied directly on top of the flexible pipe, while in phase two, the surface load was applied directly on top of the rigid culvert. The responses of both buried structures were monitored during both phases of loading to see the effect of offset loads. The loading protocol was similar to the one used in previous experiments for comparative purposes. The five dynamic load levels (9,000; 12,000; 16,000; 21,000; and 27,000 lb) were applied in each phase. The incremental dynamic load had a pulse duration of 0.1 s followed by a rest period of 0.9 s. Table 15 provides a summary of the loading protocol for experiment No. 5. All loads were applied on the loading plate positioned directly at the top of the AC layer but at the aforementioned locations. Both buried structures were appropriately instrumented for fully capturing their responses.",
+        "text_truncated": false
+      },
+      {
+        "rank": 4,
+        "chunk_id": "FHWA_HRT_18_050__p0108-p0108__c076",
+        "doc_id": "FHWA_HRT_18_050",
+        "doc_title": "Analysis Procedures for Evaluating Superheavy Load Movement on Flexible Pavements, Volume II: Appendix A, Experimental Program",
+        "report_no": "FHWA-HRT-18-050",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+        "section_header": "OVERALL SUMMARY",
+        "page_start": 108,
+        "page_end": 108,
+        "text": "based methodology for estimating shear strength parameters of SG layer, triaxial compression tests were conducted to measure ϕ and c of the SG material used in the large-scale box.\n\nThis report also describes the large-scale box in detail, experiment preparation, instrumentation plans, and loading protocols for each of the five completed experiments. Note that the experiment instrumentation plans and loading protocols were designed to provide the required information for the calibration and verification purposes. Finally, preprocessing steps to identify and separate the appropriate load-induced response signals from the recorded data followed by the results of preprocessed recordings measured by the load cell, LVDTs, and TEPCs during experiments No. 1, No. 2, and No. 3 are presented. It should be noted that the analyzed measurements for experiment No. 4 (i.e., sloping edge experiment) and experiment No. 5 (i.e., buried utilities experiment) are presented in detail in Volume Ⅶ: Appendix F and Volume Ⅷ: Appendix G, respectively.(6,7)",
+        "text_truncated": false
+      },
+      {
+        "rank": 5,
+        "chunk_id": "FHWA_HRT_18_050__p0051-p0052__c044",
+        "doc_id": "FHWA_HRT_18_050",
+        "doc_title": "Analysis Procedures for Evaluating Superheavy Load Movement on Flexible Pavements, Volume II: Appendix A, Experimental Program",
+        "report_no": "FHWA-HRT-18-050",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+        "section_header": "2.8. LOADING PROTOCOL AND INSTRUMENTATION PLANS",
+        "page_start": 51,
+        "page_end": 52,
+        "text": "structure was allowed to recover for 30 min. Similar to experiment No. 1, an increasing static load was then applied up to failure with a constant settlement rate of 0.4 inch/min.\n\nTable 9 summarizes the loading protocol for experiment No. 2. All loads were applied on the loading plate positioned directly at the top of the CAB layer and at the center of the large-scale box. Table 9. Loading protocol for experiment No. 1 (SG and CAB layers). Load Type Target Load Amplitude (lb) Loading Cycles or Loading Rate Load Plate Diameter (Inch) Rest Period Between Load Levels (min) Dynamic load (0.1-s loading plus 0.9-s rest period) 1,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 2,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic Load (0.1-s loading plus 0.9-s rest period) 3,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 4,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 5,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 6,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 7,000 25 cycles 11.9 (FWD loading plate) 2 Static load Up to failure 0.4 inch/min 11.9 (steel plate) Constant loading rate",
+        "text_truncated": false
+      },
+      {
+        "rank": 6,
+        "chunk_id": "FHWA_HRT_18_050__p0014-p0015__c006",
+        "doc_id": "FHWA_HRT_18_050",
+        "doc_title": "Analysis Procedures for Evaluating Superheavy Load Movement on Flexible Pavements, Volume II: Appendix A, Experimental Program",
+        "report_no": "FHWA-HRT-18-050",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+        "section_header": "INTRODUCTION",
+        "page_start": 14,
+        "page_end": 15,
+        "text": "l-strength parameters (cohesion (c) and angle of internal friction (ϕ)) as estimated by the proposed falling-weight-deflectometer (FWD)-based methodology developed in this project.\n\n• Verify the applicability of the proposed bearing capacity approach for SHL-vehicle loading. • Investigate the influence of a sloped shoulder on edge shear failure under FWD-type loading as well as slower loading conditions. • Assess the influence of loading on flexible and rigid buried utilities. Each experiment was extensively instrumented to provide a comprehensive database of the system response. In all cases, the vehicular loading was simulated using an 11.9-inch circular",
+        "text_truncated": false
+      },
+      {
+        "rank": 7,
+        "chunk_id": "FHWA_HRT_18_050__p0065-p0074__c053",
+        "doc_id": "FHWA_HRT_18_050",
+        "doc_title": "Analysis Procedures for Evaluating Superheavy Load Movement on Flexible Pavements, Volume II: Appendix A, Experimental Program",
+        "report_no": "FHWA-HRT-18-050",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+        "section_header": "2.8. LOADING PROTOCOL AND INSTRUMENTATION PLANS",
+        "page_start": 65,
+        "page_end": 74,
+        "text": "The researchers subjected the structure to a series of five loading levels with sequentially higher load amplitudes. Table 13 summarizes the loading protocol for experiment No. 4.\n\nAll loads were applied on the loading plate positioned directly at the top of the AC layer but at three different locations along the centerline of the large-scale box: 12, 24, and 36 inches offset from the edge of the slope. The test series started from the third location, which is the farthest away from the slope and progressively moved closer to the edge. Table 13. Loading protocol for experiment No. 4 (full pavement with sloping edge). Load Type Target Load Amplitude (lb) Loading Cycles or Loading Rate Load Plate Diameter (Inch) Rest Period Between Load Levels (min) Dynamic load (0.1-s loading plus 0.9-s rest period) 9,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 12,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 16,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 21,000 25 cycles 11.9 (FWD loading plate) 2 Dynamic load (0.1-s loading plus 0.9-s rest period) 27,000 25 cycles 11.9 (FWD loading plate) 2 Static load Up to failure 0.4 inch/min 11.9 (steel plate) Constant loading rate",
+        "text_truncated": false
+      },
+      {
+        "rank": 8,
+        "chunk_id": "FHWA_HRT_18_050__p0075-p0083__c057",
+        "doc_id": "FHWA_HRT_18_050",
+        "doc_title": "Analysis Procedures for Evaluating Superheavy Load Movement on Flexible Pavements, Volume II: Appendix A, Experimental Program",
+        "report_no": "FHWA-HRT-18-050",
+        "pdf_url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/18050/18050.pdf",
+        "section_header": "2.8. LOADING PROTOCOL AND INSTRUMENTATION PLANS",
+        "page_start": 75,
+        "page_end": 83,
+        "text": "Experiment No. 5 (Full Pavement With Buried Utilities) In experiment No. 5, a full pavement structure with a total thickness of 77 inches was constructed with two types of buried utilities in the SG layer: a steel pipe and a concrete box culvert. The steel pipe and the concrete box culvert represent a flexible and a rigid buried utility, respectively. Figure 72 through figure 79 show drawings of the setup and instrumentations for experiment No. 5. The pavement structure consisted of 5 inches of AC on top of 6 inches of CAB and 66 inches of SG soil. The loads were applied on top of the AC layer at two locations along the centerline of each of the buried utilities. The centerlines of both buried utilities (i.e., steel pipe and concrete box culvert) were located at 24 inches from the center of the large-scale box in the opposite directions. The following sections discuss the steps involved in selecting the buried utilities Selection of Flexible Pipe By definition, a flexible pipe is able to withstand at least a 2-percent deflection ratio (normalized with respect to the size) without any significant structural distress.",
+        "text_truncated": false
+      }
+    ],
+    "candidate_count": 32,
+    "duplicates_removed": 0,
+    "candidate_scan_truncated": false,
+    "truncated": true,
+    "coverage": {
+      "section_roles_present": [
+        "methods",
+        "other",
+        "purpose"
+      ],
+      "section_roles_not_observed": [
+        "findings",
+        "conclusions",
+        "limitations",
+        "recommendations"
+      ],
+      "basis": "Heuristic labels from retrieved section headings; not verification of content coverage.",
+      "complete_report": false
+    },
+    "warnings": [
+      "Selected passages only; not a complete report or exhaustive corpus search. A retrieved match does not by itself establish support for a claim."
+    ]
+  },
+  "claim_review": "comparison_review.md"
+}
