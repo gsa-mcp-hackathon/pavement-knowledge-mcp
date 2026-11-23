@@ -41,17 +41,19 @@ A State DOT reviewing its pavement preservation program might ask, “Which trea
 
 ## Example use case 1 — Which FHWA reports mention each asphalt pavement distress?
 
-The Long-Term Pavement Performance (LTPP) program collects measurements for many types of pavement distress. A researcher wanted to know how often those distresses appear in FHWA research and which reports to read to see how the measurements were used.
+The Long-Term Pavement Performance (LTPP) program tracks 15 asphalt pavement distress types. A researcher wanted to know how often each one appears in FHWA research and which reports to read to see how the measurements were used.
 
-> Among FHWA reports with asphalt or flexible-pavement terms in their titles, how many mention each of the 15 LTPP asphalt pavement distress types, and which reports mention each one?
+> Across the 584 FHWA publications in the Pavement Knowledge MCP catalog, how many reports mention each asphalt pavement distress, and which reports mention it?
 
-We selected **79 of the 584 publications** using title terms such as *asphalt*, *flexible pavement*, *HMA*, and *Superpave*. We searched the packaged text of all 79 directly, reviewed ambiguous matches in context, and counted each report once per distress. **45 reports mentioned rutting** and **33 mentioned fatigue cracking**.
+Using only Pavement Knowledge MCP, we searched within **all 584 reports** and checked the returned passages for asphalt-related mentions. Each report counted once per distress, even if it mentioned the same distress many times. **Rutting appeared in 148 reports** and **fatigue cracking in 101**.
 
-![Number of the 79 selected FHWA reports mentioning each distress: rutting 45, fatigue cracking 33, transverse cracking 22, raveling 21, longitudinal cracking 15, potholes 15, bleeding 13, block cracking 12, patches 10, shoving 5, polished aggregate 4, reflection cracking at joints 3, edge cracking 2, water bleeding and pumping 1, and lane-to-shoulder drop-off 0.](docs/ltpp-distress-report-mentions.png)
+![Number of reports with an asphalt-related mention found across 584 FHWA publications: Rutting 148, Fatigue cracking 101, Transverse cracking 78, Longitudinal cracking 58, Raveling 56, Potholes 47, Bleeding 38, Block cracking 36, Patches / patch deterioration 24, Shoving 21, Polished aggregate 20, Edge cracking 16, Reflection cracking at joints 16, Water bleeding and pumping 14, Lane-to-shoulder drop-off 11.](docs/ltpp-distress-report-mentions.png)
 
-**Why use MCP for this question?** An SI assistant can find examples online. To answer “how many?” it also needs to know which reports qualify and check every one by the same rule. The server's evidence tool returns up to 12 relevant passages per request. Counting across the selected reports required checking their indexed text directly.
+The cited passages show whether a report defines a distress, documents a field observation, or uses a measurement to guide an engineering decision. For example, one of the 14 reports that mentioned water bleeding or pumping recorded a single occurrence extending 3 feet along an asphalt test section. [See Table 88 in FHWA-HRT-16-010](https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/16010/16010.pdf).
 
-**How to use the result.** A report that lists rutting in a glossary and a report that uses measured rut depths to evaluate a treatment each count once. The matching reports give the researcher a starting point for checking where the measurements informed an analysis or decision. [See the matching reports, wording, and PDF pages (CSV)](docs/asphalt-distress-report-matches.csv)
+**How to read the chart.** The search found at least one distress in **191 distinct reports**. A report can appear in several rows. MCP returns selected passages, so additional mentions may exist.
+
+[View matching reports, passage excerpts, and source links (CSV)](docs/asphalt-distress-report-matches.csv) · [Download the catalog, counts, and search method (Excel)](docs/ltpp-distress-mcp-search.xlsx)
 
 <a id="a-question-you-can-check"></a>
 
