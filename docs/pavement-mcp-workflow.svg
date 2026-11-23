@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="477" viewBox="0 0 1080 477" role="img" aria-labelledby="title desc">
+<title id="title">How an SI assistant uses Pavement Knowledge MCP to answer a research question</title>
+<desc id="desc">A researcher asks a pavement question. The SI assistant requests evidence from the local MCP server. The server searches FHWA reports and returns passages with report IDs and PDF pages. The assistant interprets the evidence and cites it. The researcher checks the original pages and decides whether the findings apply.</desc>
+<rect x="1" y="1" width="1078" height="475" rx="15" fill="#f4f7f5" stroke="#b8cbca" stroke-width="2"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<g transform="translate(28,25)"><path d="M5 23c0-5 4-8 9-8s9 3 9 8M14 3a5 5 0 1 0 .1 0z" fill="none" stroke="#215458" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="69" y="49" font-size="24" font-weight="650" fill="#215458" letter-spacing="0">Researcher</text>
+<g transform="translate(398,25)"><path d="M4 4h20v14H11l-6 5v-5H4zM9 9h10M9 13h7" fill="none" stroke="#215458" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="439" y="49" font-size="24" font-weight="650" fill="#215458" letter-spacing="0">SI assistant</text>
+<g transform="translate(768,25)"><path d="M4 3h20v8H4zM4 15h20v8H4zM8 7h1m-1 12h1" fill="none" stroke="#1f5d68" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="809" y="49" font-size="24" font-weight="650" fill="#1f5d68" letter-spacing="0">Local MCP server</text>
+<path d="M315 157h77 M384 151l8 6-8 6" fill="none" stroke="#477775" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M685 157h77 M754 151l8 6-8 6" fill="none" stroke="#477775" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M910 233v57 M904 282l6 8 6-8" fill="none" stroke="#477775" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M765 374h-77 M696 368l-8 6 8 6" fill="none" stroke="#477775" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M395 374h-77 M326 368l-8 6 8 6" fill="none" stroke="#477775" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="27" y="79" width="286" height="153" rx="11" fill="#ffffff" stroke="#bed0cc" stroke-width="1.6"/>
+<rect x="44" y="94" width="32" height="28" rx="7" fill="#e1eeeb"/>
+<text x="51" y="114" font-size="16" font-weight="700" fill="#17544e" letter-spacing="0">01</text>
+<text x="44" y="151" font-size="24" font-weight="650" fill="#18393f" letter-spacing="0">Ask a question</text>
+<text x="44" y="178" font-size="17.9" font-weight="400" fill="#2c4a4f" letter-spacing="0">Ask about a pavement method,</text>
+<text x="44" y="200" font-size="17.9" font-weight="400" fill="#2c4a4f" letter-spacing="0">a research finding or the</text>
+<text x="44" y="222" font-size="17.9" font-weight="400" fill="#2c4a4f" letter-spacing="0">conditions of a test.</text>
+<rect x="397" y="79" width="286" height="153" rx="11" fill="#ffffff" stroke="#bed0cc" stroke-width="1.6"/>
+<rect x="414" y="94" width="32" height="28" rx="7" fill="#e1eeeb"/>
+<text x="421" y="114" font-size="16" font-weight="700" fill="#17544e" letter-spacing="0">02</text>
+<text x="414" y="151" font-size="24" font-weight="650" fill="#18393f" letter-spacing="0">Request evidence</text>
+<text x="414" y="178" font-size="17.9" font-weight="400" fill="#2c4a4f" letter-spacing="0">Ask the MCP for evidence</text>
+<text x="414" y="200" font-size="17.9" font-weight="400" fill="#2c4a4f" letter-spacing="0">across the collection or</text>
+<text x="414" y="222" font-size="17.9" font-weight="400" fill="#2c4a4f" letter-spacing="0">within a particular report.</text>
+<rect x="767" y="79" width="286" height="153" rx="11" fill="#123b44" stroke="#123b44" stroke-width="1.6"/>
+<rect x="784" y="94" width="32" height="28" rx="7" fill="#28555b"/>
+<text x="791" y="114" font-size="16" font-weight="700" fill="#fcdfa2" letter-spacing="0">03</text>
+<text x="784" y="151" font-size="24" font-weight="650" fill="#ffffff" letter-spacing="0">Search the reports</text>
+<text x="784" y="178" font-size="17.9" font-weight="400" fill="#f0f7f5" letter-spacing="0">Match technical terms and</text>
+<text x="784" y="200" font-size="17.9" font-weight="400" fill="#f0f7f5" letter-spacing="0">related concepts to passages</text>
+<text x="784" y="222" font-size="17.9" font-weight="400" fill="#f0f7f5" letter-spacing="0">in FHWA pavement reports.</text>
+<rect x="767" y="297" width="286" height="153" rx="11" fill="#123b44" stroke="#123b44" stroke-width="1.6"/>
+<rect x="784" y="312" width="32" height="28" rx="7" fill="#28555b"/>
+<text x="791" y="332" font-size="16" font-weight="700" fill="#fcdfa2" letter-spacing="0">04</text>
+<text x="784" y="369" font-size="24" font-weight="650" fill="#ffffff" letter-spacing="0">Return cited passages</text>
+<text x="784" y="396" font-size="17.9" font-weight="400" fill="#f0f7f5" letter-spacing="0">Send the matching text,</text>
+<text x="784" y="418" font-size="17.9" font-weight="400" fill="#f0f7f5" letter-spacing="0">report ID and PDF page range</text>
+<text x="784" y="440" font-size="17.9" font-weight="400" fill="#f0f7f5" letter-spacing="0">back to the SI assistant.</text>
+<rect x="397" y="297" width="286" height="153" rx="11" fill="#e4f2ed" stroke="#86b2a5" stroke-width="1.6"/>
+<rect x="414" y="312" width="32" height="28" rx="7" fill="#cae4d9"/>
+<text x="421" y="332" font-size="16" font-weight="700" fill="#154d42" letter-spacing="0">05</text>
+<text x="414" y="369" font-size="24" font-weight="650" fill="#16493f" letter-spacing="0">Interpret the evidence</text>
+<text x="414" y="396" font-size="17.9" font-weight="400" fill="#254b44" letter-spacing="0">Compare findings, cite the</text>
+<text x="414" y="418" font-size="17.9" font-weight="400" fill="#254b44" letter-spacing="0">supporting pages and flag</text>
+<text x="414" y="440" font-size="17.9" font-weight="400" fill="#254b44" letter-spacing="0">questions that remain open.</text>
+<rect x="27" y="297" width="286" height="153" rx="11" fill="#fff7e7" stroke="#d0aa60" stroke-width="1.6"/>
+<rect x="44" y="312" width="32" height="28" rx="7" fill="#f6e3bb"/>
+<text x="51" y="332" font-size="16" font-weight="700" fill="#664609" letter-spacing="0">06</text>
+<text x="44" y="369" font-size="24" font-weight="650" fill="#533b10" letter-spacing="0">Check the source</text>
+<text x="44" y="396" font-size="17.9" font-weight="400" fill="#534526" letter-spacing="0">Read the cited page. Decide</text>
+<text x="44" y="418" font-size="17.9" font-weight="400" fill="#534526" letter-spacing="0">whether the study conditions</text>
+<text x="44" y="440" font-size="17.9" font-weight="400" fill="#534526" letter-spacing="0">apply to the question at hand.</text>
+</g></svg>
