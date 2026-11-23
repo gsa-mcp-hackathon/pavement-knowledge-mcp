@@ -6,6 +6,10 @@ Prepared by the Pavement Knowledge MCP team.
 
 [Download the offline package (v0.4.1)](https://github.com/gsa-mcp-hackathon/pavement-knowledge-mcp/releases/tag/v0.4.1) · [Read the evaluation](evaluation/README.md) · [Explore the server code](server/mcp_server/)
 
+## Contents
+
+[How it works](#how-it-works) · [Research challenges](#research-challenges) · [Who benefits](#who-benefits) · [MnROAD example](#a-question-you-can-check) · [MCP tools](#how-the-assistant-uses-the-server) · [Evaluation](#what-we-tested) · [Limitations](#limitations) · [Lessons and next steps](#lessons-and-next-steps) · [Get started](#get-started) · [Sources and use](#sources-and-use)
+
 ## How it works
 
 The SI assistant uses the **Model Context Protocol (MCP)** to request evidence from the local server. The server searches a prepared collection and returns passages with report IDs and PDF page references. The assistant uses those passages to write an answer. The researcher can then inspect the original page and judge whether the finding applies.
@@ -17,10 +21,6 @@ The SI assistant uses the **Model Context Protocol (MCP)** to request evidence f
 What can past research tell us about moving a very heavy load? The proposed cargo was a **3-million-pound electrical transformer**, a piece of equipment that changes voltage on the power grid. Engineers wanted to know how the pavement might respond if the vehicle carrying it traveled close to the edge of the road.
 
 The SI assistant used the MCP to find an FHWA laboratory experiment. Researchers pressed a single plate against the pavement **36, 24 and 12 inches from the shoulder edge** and measured how much the pavement moved. An engineer can check those distances in the paragraph above Table 13 on PDF page 65. The table gives the load levels and the number of cycles at each level. To assess the actual route, the engineer would also need to know how the vehicle distributes the weight across its many wheels and how the road is built. [Check the loading positions and Table 13 on PDF page 65](evaluation/superheavy_experiments_case/source_page_065.png) · [Read the paired answers and source checks](evaluation/superheavy_experiments_case/comparison_review.md)
-
-## Contents
-
-[How it works](#how-it-works) · [Research challenges](#research-challenges) · [Who benefits](#who-benefits) · [MnROAD example](#a-question-you-can-check) · [MCP tools](#how-the-assistant-uses-the-server) · [Evaluation](#what-we-tested) · [Limitations](#limitations) · [Lessons and next steps](#lessons-and-next-steps) · [Get started](#get-started) · [Sources and use](#sources-and-use)
 
 <a id="challenge"></a>
 <a id="solution"></a>
