@@ -8,19 +8,13 @@ Prepared by the Pavement Knowledge MCP team.
 
 ## Contents
 
-[How it works](#how-it-works) · [Research challenges](#research-challenges) · [Who benefits](#who-benefits) · [MnROAD example](#a-question-you-can-check) · [MCP tools](#how-the-assistant-uses-the-server) · [Evaluation](#what-we-tested) · [Limitations](#limitations) · [Lessons and next steps](#lessons-and-next-steps) · [Get started](#get-started) · [Sources and use](#sources-and-use)
+[How it works](#how-it-works) · [Research challenges](#research-challenges) · [Who benefits](#who-benefits) · [Use case 1: Asphalt distress](#asphalt-distress-in-fhwa-reports) · [Use case 2: MnROAD sensor layout](#a-question-you-can-check) · [MCP tools](#how-the-assistant-uses-the-server) · [Evaluation](#what-we-tested) · [Limitations](#limitations) · [Lessons and next steps](#lessons-and-next-steps) · [Get started](#get-started) · [Sources and use](#sources-and-use)
 
 ## How it works
 
 The SI assistant uses the **Model Context Protocol (MCP)** to request evidence from the local server. The server searches a prepared collection and returns passages with report IDs and PDF page references. The assistant uses those passages to write an answer. The researcher can then inspect the original page and judge whether the finding applies.
 
 ![A researcher asks a pavement question. The SI assistant requests evidence from the local MCP server. The server searches FHWA reports and returns passages with report IDs and PDF pages. The assistant interprets the evidence and cites it. The researcher checks the original pages and decides whether the findings apply.](docs/pavement-mcp-workflow.svg)
-
-**Example from our evaluation**
-
-What can past research tell us about moving a very heavy load? The proposed cargo was a **3-million-pound electrical transformer**, a piece of equipment that changes voltage on the power grid. Engineers wanted to know how the pavement might respond if the vehicle carrying it traveled close to the edge of the road.
-
-The SI assistant used the MCP to find an FHWA laboratory experiment. Researchers pressed a single plate against the pavement **36, 24 and 12 inches from the shoulder edge** and measured how much the pavement moved. An engineer can check those distances in the paragraph above Table 13 on PDF page 65. The table gives the load levels and the number of cycles at each level. To assess the actual route, the engineer would also need to know how the vehicle distributes the weight across its many wheels and how the road is built. [Check the loading positions and Table 13 on PDF page 65](evaluation/superheavy_experiments_case/source_page_065.png) · [Read the paired answers and source checks](evaluation/superheavy_experiments_case/comparison_review.md)
 
 <a id="challenge"></a>
 <a id="solution"></a>
@@ -32,7 +26,7 @@ A research question often starts with a practical decision. An engineer designin
 | What gets in the way | How Pavement Knowledge MCP helps |
 |---|---|
 | **Finding the right study when terminology varies.** An engineer may describe a measurement in different words from the report or may know only a device name or report number. | The assistant can search the publication catalog. For passage retrieval, the server combines semantic search (E5 embeddings in Chroma) with keyword search (BM25) so both related concepts and exact terms can surface. |
-| **Finding the detail that determines whether a result applies.** A summary may describe the finding while the sensor placement, load position or test condition appears much later. | The team indexed **68,655 passages from 49,898 source pages**. The assistant can search within a particular report, cite the relevant pages and ask a follow-up about a missing condition. |
+| **Finding the detail that determines whether a result applies.** A summary may describe the finding while the sensor placement, load position or test condition appears much later. | The 584 publications span **49,898 source pages**. The search index contains **68,655 passages**. The assistant can search within a particular report, cite the relevant pages and ask a follow-up about a missing condition. |
 | **Separating documented findings from interpretation.** Two studies may address a similar question under different test conditions. | Passages retain their report IDs and PDF page ranges. An assistant can compare the conditions and identify where it is drawing an inference. A reader can inspect each original source before reusing the comparison. |
 
 The team used OCR on selected scans, recovered section headings and retained page references during preparation. At search time, the server merges the semantic and keyword rankings and removes duplicate passages.
@@ -41,11 +35,27 @@ The team used OCR on selected scans, recovered section headings and retained pag
 
 ## Who benefits
 
-**Researchers, engineers and State DOT practitioners** can use a prior study to inform a new one. For example, an engineer planning a sensor installation can ask how an earlier team positioned its sensors, look up the figure, and decide which parts of the setup to carry over. Page references also give colleagues a common starting point when they disagree about an interpretation. [See the MnROAD sensor case](evaluation/tsdd_instrumentation_case/comparison_review.md)
+A State DOT reviewing its pavement preservation program might ask, “Which treatments have helped roads like ours last longer, and how was that measured?” Researchers and engineers can use the MCP to compare the conditions in earlier studies and check the reported outcomes. FHWA research and technology transfer teams can use those same sources to explain which findings may apply locally and where more field data would help. [FHWA study of preservation treatments, conclusions and limits (PDF pp. 46–47)](https://www.fhwa.dot.gov/pavement/preservation/pubs/perfeval/perfeval.pdf#page=46)
 
-**FHWA research and technology transfer teams** could make earlier studies easier for State DOTs to find and use. When a DOT asks what FHWA has tested, a specialist can locate the study, check the conditions and share the answer with the original table or figure. A program team scoping a follow-up study can use cited comparisons to distinguish questions earlier experiments addressed from questions that still need field validation. [See the heavy-load comparison and its limits](evaluation/superheavy_experiments_case/comparison_review.md)
+<a id="asphalt-distress-in-fhwa-reports"></a>
 
-## A question you can check
+## Example use case 1 — Which FHWA reports mention each asphalt pavement distress?
+
+The Long-Term Pavement Performance (LTPP) program collects measurements for many types of pavement distress. A researcher wanted to know how often those distresses appear in FHWA research and which reports to read to see how the measurements were used.
+
+> Among FHWA reports with asphalt or flexible-pavement terms in their titles, how many mention each of the 15 LTPP asphalt pavement distress types, and which reports mention each one?
+
+We selected **79 of the 584 publications** using title terms such as *asphalt*, *flexible pavement*, *HMA*, and *Superpave*. We searched the packaged text of all 79 directly, reviewed ambiguous matches in context, and counted each report once per distress. **45 reports mentioned rutting** and **33 mentioned fatigue cracking**.
+
+![Number of the 79 selected FHWA reports mentioning each distress: rutting 45, fatigue cracking 33, transverse cracking 22, raveling 21, longitudinal cracking 15, potholes 15, bleeding 13, block cracking 12, patches 10, shoving 5, polished aggregate 4, reflection cracking at joints 3, edge cracking 2, water bleeding and pumping 1, and lane-to-shoulder drop-off 0.](docs/ltpp-distress-report-mentions.png)
+
+**Why use MCP for this question?** An SI assistant can find examples online. To answer “how many?” it also needs to know which reports qualify and check every one by the same rule. The server's evidence tool returns up to 12 relevant passages per request. Counting across the selected reports required checking their indexed text directly.
+
+**How to use the result.** A report that lists rutting in a glossary and a report that uses measured rut depths to evaluate a treatment each count once. The matching reports give the researcher a starting point for checking where the measurements informed an analysis or decision. [See the matching reports, wording, and PDF pages (CSV)](docs/asphalt-distress-report-matches.csv)
+
+<a id="a-question-you-can-check"></a>
+
+## Example use case 2 — How were pavement sensors arranged at MnROAD?
 
 > At MnROAD, which sensors did researchers embed to test traffic-speed deflection devices, and where were they placed relative to the wheel path?
 
@@ -85,7 +95,7 @@ The separate **Evaluation Report** accompanies the hackathon submission. The [re
 
 - **Coverage.** The release searches a fixed snapshot of selected FHWA pavement reports. New publications require a collection update. An unsuccessful search does not establish that a topic has never been studied.
 - **Relevance and completeness.** A passage can match the topic but omit a study condition, exception or figure. Check the surrounding pages before applying a result. For scans, tables and figures, consult the original PDF.
-- **Source accuracy.** In the MnROAD case, the answer repeated an apparent inversion in the report’s speed formula. Reviewers checked the original page and documented that speed equals axle spacing divided by elapsed time. [See the answer and correction](evaluation/tsdd_instrumentation_case/comparison_review.md#correction-before-reuse).
+- **Source accuracy.** An assistant can cite the correct page and still repeat an error in the source. In the MnROAD case, the report described vehicle speed as elapsed time divided by axle spacing, and the assistant repeated that wording. Reviewers checked the original page and documented the correct calculation. Vehicle speed equals axle spacing divided by the time between the front- and rear-axle response peaks. [See the answer and correction](evaluation/tsdd_instrumentation_case/comparison_review.md#correction-before-reuse).
 
 ## Lessons and next steps
 
