@@ -47,7 +47,7 @@ The Long-Term Pavement Performance (LTPP) program tracks 15 asphalt pavement dis
 
 Using only Pavement Knowledge MCP, we searched within **all 584 reports** and checked the returned passages for asphalt-related mentions. Each report counted once per distress, even if it mentioned the same distress many times. **Rutting appeared in 148 reports** and **fatigue cracking in 101**.
 
-![Number of reports with an asphalt-related mention found across 584 FHWA publications: Rutting 148, Fatigue cracking 101, Transverse cracking 78, Longitudinal cracking 58, Raveling 56, Potholes 47, Bleeding 38, Block cracking 36, Patches / patch deterioration 24, Shoving 21, Polished aggregate 20, Edge cracking 16, Reflection cracking at joints 16, Water bleeding and pumping 14, Lane-to-shoulder drop-off 11.](docs/ltpp-distress-report-mentions.png)
+![Number of reports with an asphalt-related mention found across 584 FHWA publications: Rutting 148, Fatigue cracking 101, Transverse cracking 78, Longitudinal cracking 58, Raveling 56, Potholes 47, Bleeding 38, Block cracking 36, Patches / patch deterioration 24, Shoving 21, Polished aggregate 20, Edge cracking 16, Reflection cracking at joints 16, Water bleeding and pumping 14, Lane-to-shoulder drop-off 11.](docs/ltpp-asphalt-distress-584-reports.png)
 
 The cited passages show whether a report defines a distress, documents a field observation, or uses a measurement to guide an engineering decision. For example, one of the 14 reports that mentioned water bleeding or pumping recorded a single occurrence extending 3 feet along an asphalt test section. [See Table 88 in FHWA-HRT-16-010](https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/16010/16010.pdf).
 
